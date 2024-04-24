@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-wigth, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Index</title>
+        </head>
+        <body>
+            <div id="general_div">
+        <button id="but1">
+            <div id="g"></div>
+            <div id="g"></div>
+            <div id="g"></div>
+        </button>
+        <h2 id="h2_lorem_Ipsum">Lorem Ipsum</h2>
+        <p>
+            <b>Lorem</b> <i>ipsum</i> <b>dolor</b> <i>sit</i> <b>amet</b>, consectetur adipiscing elit. Proin faucibus urna vel faucibus volutpat. In sagittis tempus ante sit amet viverra. Phasellus condimentum risus et purus pharetra scelerisque. Ut orci velit, facilisis in porttitor id, scelerisque suscipit <b>lorem</b>. Vestibulum pellentesque nisi in ullamcorper vestibulum. Sed ornare risus nec mauris dictum scelerisque. Duis eu ex euismod, lacinia velit non, sollicitudin risus. Duis ac enim mi. Pellentesque varius dolor non nunc fermentum, vitae feugiat nibh pellentesque. Suspendisse molestie tempor arcu ut laoreet. Praesent luctus sagittis justo. Vestibulum velit nulla, posuere vel aliquam non, dictum sed justo. Pellentesque at orci ante. Maecenas aliquet condimentum nunc, quis rhoncus enim mattis eu. Proin egestas vitae mi ac pellentesque. Suspendisse ultricies consequat consectetur.
+        </p>
+        <hr>
+        <p>
+            Fusce eu dui diam. Quisque non ultrices libero. Phasellus nisi augue, mattis vel accumsan in, pretium nec lacus. Vestibulum maximus maximus vulputate. Nullam molestie egestas ex a consectetur. Nulla quis porta est. Nunc lacus felis, convallis at lobortis vel, pretium ac magna. Vestibulum sit amet euismod lectus. Aenean mauris mi, ultrices at porta pretium, pretium ut mauris. Nunc fringilla purus nibh, nec feugiat velit auctor in. Nunc iaculis elit ut <b>lorem</b> posuere mollis. Aenean sed nibh neque. Morbi vitae enim libero. Ut pretium elit eget leo ullamcorper, at tincidunt mi dictum.
+        </p>
+        <hr>
+        <p>
+            Phasellus commodo lacus nisi, eget hendrerit nisl faucibus malesuada. Phasellus et ex tristique, aliquam magna quis, ultricies urna. Vivamus mollis justo nunc, vehicula malesuada velit dapibus et. Nunc convallis magna eget justo condimentum rutrum. Vivamus ligula massa, lobortis ac dapibus in, dignissim at ex. Integer iaculis <b>lorem</b> eget metus blandit imperdiet. Quisque ante velit, euismod ut arcu vitae, consectetur vehicula nibh. Curabitur eu venenatis odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam blandit eu dolor et iaculis. Integer posuere in dolor non scelerisque.
+        </p>
+        </div>
+    </body>
+</html>
