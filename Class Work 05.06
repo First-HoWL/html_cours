@@ -1,0 +1,62 @@
+<html>
+<head>
+    <title>Index</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+    body{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#rick_roll{
+    color: orange;
+}
+#button{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    box-shadow: 2px;
+    border-radius: 10px;
+    font-size: 40px;
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+    color: orange;
+}
+p{
+color: orange;
+}
+
+.second{
+    color: green;
+}
+.third{
+    color: blue;
+}
+strong{
+    color: black;
+}
+</style>
+</head>
+<body>
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" id="rick_roll"><h1>It's Not Rick Roll</h1></a>
+
+<button id="button" ><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><div id="divv"> </div></a></button>
+<h1><i>Hello</i> <b>world!</b></h1>
+
+<h2>Lorem Ipsum</h2>
+<p>
+    ipsum dolor sit amet, consectetur adipiscing elit. <strong>Nulla volutpat ornare dui, ut congue magna volutpat et. Donec varius lacinia auctor.</strong> Integer vel ultrices metus. Etiam in felis cursus, sodales nulla ut, fermentum ligula. Sed varius pretium orci et faucibus. Cras placerat sagittis tortor, vitae tempor velit rutrum ut. Integer vel pretium ipsum. Nunc et auctor ex. Mauris vel pharetra leo, ac efficitur sem. Donec dignissim ex erat, id sollicitudin augue pharetra eget. Phasellus semper lectus erat, eu suscipit metus accumsan non. Maecenas tincidunt eget urna quis eleifend. Donec varius sed ipsum sit amet sodales. Morbi at lectus a ligula congue efficitur a non nisi.
+</p>
+<h2  class="second" >Lorem Ipsum</h2>
+<p class="second">
+    <strong>Nullam vestibulum varius enim a dignissim.</strong> Fusce aliquam magna quis felis aliquet finibus. In et facilisis risus. Quisque ultricies risus sit amet erat laoreet, ut pulvinar nunc bibendum. Ut pulvinar tempor ex, a mollis tortor lobortis eget. Curabitur libero nulla, rutrum eu diam a, consequat hendrerit tortor. <strong>Phasellus et sapien iaculis, mollis est ac, malesuada sapien.</strong> Nullam ultrices est id elit finibus dignissim. <strong>Aliquam dignissim a justo et pharetra. Quisque efficitur ultrices neque sit amet imperdiet. </strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nisl ante, iaculis at maximus a, congue et leo. Etiam nunc purus, fringilla vel maximus quis, viverra id ante. Pellentesque sollicitudin nec eros sit amet imperdiet. Quisque blandit diam eu dui bibendum mattis. Fusce eget volutpat sem, sit amet pharetra est.
+</p>
+<h2 class="third" >Lorem Ipsum</h2>
+<p class="third">
+    vestibulum nibh eu lacus facilisis, non bibendum augue porta. Fusce porta nisl eros, eu luctus metus viverra ut. Mauris in libero dolor.<strong> Sed varius eget orci a dignissim.</strong> Cras varius finibus purus, ut malesuada leo dictum eget. Ut metus mauris, egestas lacinia egestas quis, fermentum nec augue. Duis commodo, urna eu pellentesque cursus, nisl dui ultricies ligula, ac egestas risus libero tristique ligula. <strong>Curabitur varius nulla non eros finibus, vel vestibulum massa scelerisque.</strong> Sed eleifend volutpat nisi, sed mollis diam scelerisque non. Nunc et sollicitudin sapien, rhoncus aliquam elit. Suspendisse potenti. Suspendisse luctus efficitur velit quis posuere. Maecenas volutpat nunc in bibendum malesuada.
+
+</p>
+
+</body>
+</html>
