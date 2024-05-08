@@ -35,28 +35,55 @@
 </p>
 <h2 class="top5">Топ 5 чего угодно:</h2>
 
-<ul start="5" reversed class="ul_list">
-	<li class="li_1">Grand Theft Auto 5</li>
-	<li class="li_2">Portal 2</li>
-	<li class="li_3">Far Cry 5</li>
-	<li class="li_4">7 days to dye</li>
-	<li class="li_5">Portal
-		<ul class="ul_list">
-			<li>/=1=\</li>
-			<li>/=2=\</li>
-			<li>/=3=\</li>
-			<li>/=4=\</li>
-		</ul>
-	</li>
+<ul start="5" reversed class="ul_list first">
+	<li class="li_1">Winter
+        <ul class="ul_list winter">
+            <li>December</li>
+            <li>January</li>
+            <li>February</li>
+        </ul>
+    </li>
+	<li class="li_1">Spring
+        <ul class="ul_list spring">
+            <li>March</li>
+            <li>April</li>
+            <li>May</li>
+        </ul>
+    </li>
+    <li class="li_1">Summer
+        <ul class="ul_list summer">
+            <li>June</li>
+            <li>July</li>
+            <li>August</li>
+        </ul>
+    </li>
+	<li class="li_1">Outumn
+        <ul class="ul_list outumn">
+            <li>September</li>
+            <li>October</li>
+            <li>Nowember</li>
+        </ul>
+    </li>
 </ul>
 
+
+<ul class="menu">
+    <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">home</a></li>
+    <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">about</a></li>
+    <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">contacts</a></li>
+</ul>
 
 </div>
 </body>
 </html>
 
 
+
+
 css
+
+
+
 
 body{
     margin-left: 20%;
@@ -66,10 +93,6 @@ body{
     background-attachment: fixed;
     background-size:cover;
     background-image: url(https://kartinki.pics/uploads/posts/2021-04/1617573903_25-p-polnostyu-chernii-fon-30.jpg)
-}
-
-#rick_roll{
-    color: orange;
 }
 
 #max_div{
@@ -96,6 +119,7 @@ img{
 
 a{
     text-decoration: none;
+    color: white;
 }
 
 
@@ -105,7 +129,7 @@ h2{
 }
 
 
-p{
+p, #rick_roll{
 color: orange;
 }
 
@@ -124,7 +148,7 @@ strong{
 .ul_list{
     list-style-type: none;
     list-style-position: inside;
-    padding-left: 10px;  
+    padding-left: 15px;  
 }
 
 .top5{
@@ -132,14 +156,60 @@ strong{
 }
 
 ul.ul_list li::before{
-    content: "";
     display: inline-block;
     width: 18px;
     height: 18px;
-    background-image: url("https://cdn4.iconfinder.com/data/icons/basic-business-1/36/Checkmark_right_icon-512.png");
     background-size: contain;
-    margin-right: 7px;
+    margin-right: 0;
 }
+
+ul.first li::before{
+    content: ">";
+}
+
+ul.spring li::before{
+    content: "🌷";
+    margin-right: 7px;
+    padding-left: 10px;
+}
+
+ul.outumn li::before{
+    content: "🍁";
+    margin-right: 7px;
+    padding-left: 10px;
+}
+
+ul.summer li::before{
+    content: "🍉";
+    margin-right: 7px;
+    padding-left: 10px;
+}
+
+ul.winter li::before{
+    content: "❄️";
+    margin-right: 7px;
+    padding-left: 10px;
+}
+
+ul.menu{
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.menu li{
+    display: inline-block;
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+ul.menu li:hover{
+    background-color: coral;
+}
+
+
+/*
 ul.ul_list li:nth-child(2n){
     color: #696969;
 }
@@ -147,5 +217,5 @@ ul.ul_list li:nth-child(2n){
 ul.ul_list li:nth-child(odd){
     color: coral;
 }
-
+*/
 
