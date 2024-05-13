@@ -10,33 +10,30 @@
 <h2>Mathematical formulas</h2>
 <h3>Linear Equations</h3>
 <p>A linear equation is any equation that can be written in the form</p>
-<h2><span class="formula">ax + b = 0</span></h2>
+<h2 class="formula_h2"><span class="formula">ax + b = 0</span></h2>
 <p>where <span class="simvols">a</span> and <span class="simvols">b</span> are real numbers and <span class="simvols">x</span> is a variable. This form is sometimes called the standard form of a linear equation. Note that most linear equations will not start off in this form. Also, the variable may or may not be an <span class="simvols">x</span> so don’t get too locked into always seeing an <span class="simvols">x</span> there.</p>
 <h3>Quadratic Equation</h3>
+<p class="center"><img src="https://www.chilimath.com/wp-content/uploads/2023/08/the-quadratic-formula-and-the-values-of-discriminant.png"></p>
 <p>The standard form of a quadratic equation looks like this:</p>
-<h2><span class="formula">ax<sup>2</sup> + bx + c = 0 </span></h2>
+<h2 class="formula_h2"><span class="formula">ax<sup>2</sup> + bx + c = 0 </span></h2>
 <p>where <span class="simvols">a</span>, <span class="simvols">b</span>, <span class="simvols">c</span> are known values and <span class="simvols">x</span> is the variable or unknown (we don't know it yet). Also, <span class="simvols">a</span> can't be 0.</p>
 <h3>The area of a circle (A)</h3>
-<p><span class="simvols">π</span> (Pi) times the radius (r) squared:</p>
-<h2><span class="formula">A = π × r^2</span></h2>
-<p>or, when you know the diameter (D):</p>
-<h2><span class="formula">A = π / 4) × D^2 </span></h2>
-<p>or, when you know the circumference (C):</p>
-<h2><span class="formula">A = C^2 / 4 × π </span></h2>
+<p class="center"><img src="math_img.png"></p>
+<p><span class="simvols">π</span> (Pi) times the radius (<span class="simvols">r</span>) squared:</p>
+<h2 class="formula_h2"><span class="formula">A = π × r<sup>2</sup></span></h2>
+<p>or, when you know the diameter (<span class="simvols">D</span>):</p>
+<h2 class="formula_h2"><span class="formula">A = (π / 4) × D<sup>2</sup> </span></h2>
+<p>or, when you know the circumference (<span class="simvols">C</span>):</p>
+<h2 class="formula_h2"><span class="formula">A = C<sup>2</sup> / 4 × π </span></h2>
 <h3>Intersection</h3>
-<p>The intersection of two sets A and B, denoted by A ∩ B, is the set of all objects that are members of both the sets A and B. In symbols,</p>
-<h2><span class="formula">A ∩ B = { x : x ∊ A and x ∊ B } </span></h2>
-<p>That is, x is an element of the intersection A ∩ B if and only if x is both an element of A and an element of B.</p>
+<p class="center"><img src="https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/image-1680174599.png"></p>
+<p>The intersection of two sets <span class="simvols">A</span> and <span class="simvols">B</span>, denoted by A ∩ B, is the set of all objects that are members of both the sets A and B. In symbols,</p>
+<h2 class="formula_h2"><span class="formula">A ∩ B = { x : x ∈ A and x ∈ B } </span></h2>
+<p>That is, <span class="simvols">x</span> is an element of the intersection A ∩ B if and only if <span class="simvols">x</span> is both an element of <span class="simvols">A</span> and an element of <span class="simvols">B</span>.</p>
    
 
 
-  
 
-
-
-
-
-   
 
 
 </div>
@@ -45,6 +42,8 @@
 
 
 css
+
+
 
 
 body{
@@ -57,7 +56,7 @@ body{
 }
 
 .max_div{
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(210, 210, 210, 0.90);
     padding: 15px;
     max-width: 1000px;
     min-width: 300px;
@@ -68,19 +67,11 @@ body{
 
 img{
     width: 60%;
+    background-color: white;
 }
 
 .center{
     text-align: center;
-}
-
-#button{
-    height: 50px;
-    width: 50px;
-    background-color: white;
-    box-shadow: 2px;
-    border-radius: 10px;
-    font-size: 40px;
 }
 
 a{
@@ -93,92 +84,22 @@ h2{
     text-align: center;
 }
 
-
-.second{
-    color: green;
-}
-
-.third{
-    color: blue;
-}
-
-strong{
-    color: black;
-}
-
-.ul_list{
-    list-style-type: none;
-    list-style-position: inside;
-    padding-left: 15px;  
-}
-
-.top5{
-    text-align: left;
-}
-
-ul.ul_list li::before{
+h2.formula_h2::before{
+    content: "";
     display: inline-block;
-    width: 18px;
-    height: 18px;
+    width: 40px;
+    height: 37px;
+    margin-bottom: -10px;
+    background-image: url("https://prepinstadotcom.s3.ap-south-1.amazonaws.com/wp-content/uploads/2023/02/tips-and-tricks-for-quadriatic-equation.webp");
     background-size: contain;
-    margin-right: 0;
 }
 
-ul.first li::before{
-    content: ">";
-}
-
-ul.spring li::before{
-    content: "🌷";
-    margin-right: 7px;
-    padding-left: 10px;
-}
-
-ul.outumn li::before{
-    content: "🍁";
-    margin-right: 7px;
-    padding-left: 10px;
-}
-
-ul.summer li::before{
-    content: "🍉";
-    margin-right: 7px;
-    padding-left: 10px;
-}
-
-ul.winter li::before{
-    content: "❄️";
-    margin-right: 7px;
-    padding-left: 10px;
-}
-
-ul.menu{
-    list-style-type: none;
-    padding: 0;
-}
-
-ul.menu li{
-    display: inline-block;
-    background-color: brown;
-    color: white;
-    padding: 10px;
-    text-transform: uppercase;
-}
-
-ul.menu li:hover{
-    background-color: coral;
-}
-
-
-/*
-ul.ul_list li:nth-child(2n){
-    color: #696969;
-}
-
-ul.ul_list li:nth-child(odd){
-    color: coral;
-}
-*/
 .formula{
-    background-color: pink;
+    background-color: rgb(255, 161, 177);
+    padding: 5px;
+}
+.simvols{
+    color: rgb(197, 31, 31);
+    font-style: italic;
+    font-weight: 700;
 }
