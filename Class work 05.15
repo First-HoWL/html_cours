@@ -33,7 +33,6 @@
 css
 
 
-
 body{
     background-repeat: no-repeat;
     background-position: center center;
@@ -113,7 +112,7 @@ ul li.team:hover{
     background-color: coral;
     transform:  scale(1.5) rotateY(360deg) perspective(200px);
     z-index: 1;
-    filter: blur(1px);
+    filter: blur(1px) brightness(70%) opacity(85%);
 }
 
 ul li.about:hover{
@@ -127,8 +126,18 @@ div.block{
     height: 200px;
     background-color: blue;
     position: absolute;
-    transform: translateX(500px) translateY(500px) rotate(30deg);
+    z-index: 0;
+    transition: background-color 0.3s, transform 2.5s, filter 1.5s, border-radius 1.5s;
 }
+
+div.block:hover{
+    background-color: aqua;
+    transform: translateX(500px) translateY(500px) rotate(720deg);
+    filter: opacity(85%);
+    border-radius: 100px;
+    box-shadow: 3px;
+}
+
 
 div.block2{
     width: 200px;
