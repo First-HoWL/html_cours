@@ -1,0 +1,137 @@
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>Index</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="max_div">
+
+
+  
+<div></div>
+
+<nav>
+	<ul>
+		<li class="home">Home</li>
+		<li class="team">Team</li>
+		<li class="about">About</li>
+	</ul>
+	<div class="block"></div>
+	<div class="block2"></div>
+</nav>
+
+
+   
+
+
+</div>
+</body>
+</html>
+
+
+css
+
+
+
+body{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size:cover;
+    background-image: url(https://kartinki.pics/uploads/posts/2021-04/1617573903_25-p-polnostyu-chernii-fon-30.jpg);
+    font-family: sans-serif;
+}
+
+.max_div{
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 15px;
+    max-width: 1000px;
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    /* text-indent: 20px; абзац */
+}
+
+img{
+    width: 60%;
+}
+
+.center{
+    text-align: center;
+}
+
+#button{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    box-shadow: 2px;
+    border-radius: 10px;
+    font-size: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+h2{
+    text-align: center;
+}
+
+
+
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+ul li{
+    background-color: yellow;
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 1.5s;
+}
+
+ul li.about{
+    transition: background-color 0.3s, transform 3000s;
+}
+
+ul li.home:hover{
+    background-color: coral;
+    transform:  scale(1.5) rotateX(360deg) perspective(200px);
+    z-index: 1;
+}
+ul li.team:hover{
+    background-color: coral;
+    transform:  scale(1.5) rotateY(360deg) perspective(200px);
+    z-index: 1;
+    filter: blur(1px);
+}
+
+ul li.about:hover{
+    background-color: coral;
+    transform:  scale(10000) perspective(200px);
+    z-index: 1;
+}
+
+div.block{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    transform: translateX(500px) translateY(500px) rotate(30deg);
+}
+
+div.block2{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
