@@ -5,21 +5,19 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+<div class="block"></div>
+<div class="block" style="animation-delay: 8s"></div>
 <div class="max_div">
 
 
-  
-<div></div>
-
-<nav>
+	
 	<ul>
 		<li class="home">Home</li>
 		<li class="team">Team</li>
 		<li class="about">About</li>
 	</ul>
-	<div class="block"></div>
-	<div class="block2"></div>
-</nav>
+
+
 
 
    
@@ -33,12 +31,13 @@
 css
 
 
+
+
 body{
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     background-size:cover;
-    background-image: url(https://kartinki.pics/uploads/posts/2021-04/1617573903_25-p-polnostyu-chernii-fon-30.jpg);
     font-family: sans-serif;
 }
 
@@ -54,19 +53,6 @@ body{
 
 img{
     width: 60%;
-}
-
-.center{
-    text-align: center;
-}
-
-#button{
-    height: 50px;
-    width: 50px;
-    background-color: white;
-    box-shadow: 2px;
-    border-radius: 10px;
-    font-size: 40px;
 }
 
 a{
@@ -122,25 +108,40 @@ ul li.about:hover{
 }
 
 div.block{
-    width: 200px;
-    height: 200px;
-    background-color: blue;
+    width: 101%;
+    height: 100%;
+    background-image: url(https://kartinki.pics/uploads/posts/2021-04/1617573903_25-p-polnostyu-chernii-fon-30.jpg);
     position: absolute;
-    z-index: 0;
-    transition: background-color 0.3s, transform 2.5s, filter 1.5s, border-radius 1.5s;
+    z-index: -1;
+    animation-name: anim1;
+    animation-duration: 16s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
-div.block:hover{
-    background-color: aqua;
-    transform: translateX(500px) translateY(500px) rotate(720deg);
-    filter: opacity(85%);
-    border-radius: 100px;
-    box-shadow: 3px;
+@keyframes anim1{
+    from{
+        transform: translate(-1920px, -8px);
+    }
+    to{
+        transform: translate(1920px, -8px);
+    }
 }
 
-
-div.block2{
-    width: 200px;
-    height: 200px;
-    background-color: red;
-}
+/*
+from{
+        transform: translate(-800px, 0px) scale(1);
+    }
+    25%{
+        transform: translate(1550px, 0px) scale(1);
+    }
+    50%{
+        transform: translate(1550px, 500px) scale(1.5);
+    }
+    75%{
+        transform: translate(-800px, 500px) scale(1.5);
+    }
+    to{
+        transform: translate(-800px, 0px) scale(1);
+    }
+*/
