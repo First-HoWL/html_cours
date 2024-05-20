@@ -15,7 +15,7 @@ div.max_div{
 	padding: 20px;
 }
 
-h2{
+h2, h1{
 	text-align: center;
 	color: orange;
 }
@@ -39,7 +39,22 @@ a{
 	display: inline-block;
 	min-width: 150px;
 	background-color: whitesmoke;
+    transition: transform 0.5s, border 0.5s;
+    z-index: 1;
 }
 p{
 	max-width: 800px;
+}
+
+div.kard:hover{
+    transform: scale(1.5);
+    z-index: 2;
+    border: 3px solid rgb(255, 94, 0);
+}
+
+span.portal_2{
+    transition: color 1s;
+}
+span.portal_2:hover{
+    color: rgb(13, 13, 223);
 }
