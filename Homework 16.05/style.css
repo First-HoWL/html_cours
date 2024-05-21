@@ -1,0 +1,43 @@
+#word_in_text{
+	color: rgb(160, 32, 58);
+	background-color: rgb(220, 220, 220);
+}
+
+#general_div{
+	font-family: sans-serif;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 15px;
+    max-width: 1000px;
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center{
+	text-align: center;
+}
+
+h2{
+	color: rgb(160, 32, 58);
+}
+
+body{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: url(https://www.hdwallpapers.in/download/tokyo_nairobi_berlin_rio_denver_raquel_murillo_alison_parker_hd_money_heist-HD.jpg);
+	background-position: center center;
+	text-indent: 20px;
+}
+.red{
+	color: rgb(160, 32, 58);
+}
+
+.images{
+	text-align: center;
+	max-width: 100%;
+	overflow: hidden;
+}
+img{
+	height: 600px;
+}
