@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Index</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+<div class="max_div">
+	<main>
+		<section class="icon"><img src="https://uxwing.com/wp-content/themes/uxwing/download/hand-gestures/good-icon.png"></section>
+		<section class="main">
+
+			<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><section class="sect">Rick Roll</section></a>
+
+			<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><section class="sect">Rick Roll</section></a>
+
+			<section class="sect">
+			<div class="dropdown">
+				<button class="mainmenubtn">Not Rick Rollˇ</button>
+					<div class="dropdown-child">
+					    <div><a href="">Подраздел 1</a></div>
+					    <div><a href="">Подраздел 2</a></div>
+					    <div><a href="">Подраздел 3</a></div>
+				  	</div>
+				</div>
+			</section>
+
+			<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><section class="sect">Rick Roll</section></a>
+
+			<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><section class="sect">Rick Roll</section></a>
+
+		</section>
+		<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><section class="button">ORDER NOW</section></a>
+	</main>
+
+
+
+
+
+  
+  
+</div>
+</body>
+</html>
+
+
+css
+
+
+body{
+	background-image: url(https://wallpaper.forfun.com/fetch/e9/e957de9058693f484a01210f38328151.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+div.max_div{
+    max-width: 1300px;
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+	background-color: rgb(255, 255, 255, 0.90);
+	padding: 20px;
+}
+
+.main{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+main{
+	padding: 20px;
+	display: flex;
+	background-color: black;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.sect{
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+	width: 130px;
+	background-color: black;
+	transition: font-weight 0.9s, color 0.6s;
+}
+
+.sect:hover{
+	color: white;
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+	color: grey;
+}
+.button{
+	margin: 0;
+	height: 40px;
+	width: 120px;
+	background-color: orange;
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	transition: font-weight 0.6s, transform 0.7s;
+}
+
+.button:hover{
+	font-weight: bold;
+	transform: scale(1.2);
+}
+
+img{
+	height: 36px;
+}
+
+
+
+
+.mainmenubtn {
+    background-color: black;
+    color: grey;
+    border: none;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.mainmenubtn:hover{
+	color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: rgb(0, 0, 0, 0);
+    min-width: 100px;
+    border-radius: 10px;
+}
+
+.dropdown-child > div{
+	margin-top: 10px;
+	background-color: orange;
+	border-radius: 5px;
+}
+
+.dropdown-child a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+
+
