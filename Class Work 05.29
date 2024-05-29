@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Index</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="max_div">
+
+	<nav>
+		<section class="icon"><div><img src="https://s3-alpha-sig.figma.com/img/aff0/0671/6aeffb9ae5c02a078f119c33549c764a?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=EGzNIkT3X7a2tTmRco4FmuycMLYR8mptWvMx73rgnS2M~FdN2VgsjnRpEq8bDzUUMlu1XinC53GXJZSMf7lfxkxHbdZ8UCb5NNSLtcKR2mGc-b0VPcn~UGlV7VNNhqWbQiyOy1FDJb4iH4mXk76rVL0gN4zZSH2y9mWnrgdCEVMMIMPu2VkYy7ENcyifB5wL3-o6r1QmOqBBhXnZvThto2-o27Q454Oqdf~cFp2lWWKebecWKVY47aUnCTwS6ztFTMD8NiIx7zBPeNoLLZu0VjBtuGJFALxmjyHtuwNZa~UK-3imXNhyEfusjKAyx~AV2KXOBqtjwRPrYM4qv3m5uA__"></div></section>
+		<section class="main">
+
+			<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><section class="sect">HOME</section></a>
+
+			<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><section class="sect">PAGES</section></a>
+
+			<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><section class="sect">OUR OFFERS</section></a>
+
+			<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><section class="sect">PRICING</section></a>
+
+			<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><section class="sect">SHOP</section></a>
+
+		</section>
+		<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><section class="button">ORDER NOW</section></a>
+	</nav>
+
+<main class="central_text">
+	<section></section>
+<section>
+	<span class="h5">FAST FOOD BURGERS</span><br>
+	<span class="h2">The fastest food, for instant hunger.</span>
+	<p>Some food has looked so awful that it's looked like something that the dog's brought home, yet after one mouthful I've been left eating my thoughts, my words & my food and gone back for seconds.</p>
+	<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><section class="button">ORDER NOW</section></a>
+	
+</section>
+
+</main>
+</div>
+</body>
+</html>
+
+
+css
+
+
+
+body{
+	background-image: url(https://s3-alpha-sig.figma.com/img/6904/8776/b42c9c5d9ec5e4c972446e63e68a65a4?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KfGBqXm7BkuLK85lQmzozSxLqZlaQ0jYYbKffDCTPCMfPtrxoOR~ITf2X4iGhpfBPlhRFGKz72BbWPO45Fb3VS31YYsBnHZAT-9idSM93X8sM44maUInGoc78~O4AlxX2iW8n9os8SSVoC9FBbyyE1LvdzSsBcUyH12Ew1KXsBAlQqlbt9uuOHEq34vYrIAhtupTbfbUzN9v4g2ioErss7uEwh1cNbzJ5NqHQHoNM2Ejnq23M61ynNdawOJnjzO0M0smp2PqaqAx5K7j6f-UoyupOV-YdyZH4nj8lC~p~tm70qUGXT5YrLP0BsF5uo6va-igJE7hGv9Tq5ub86CARQ__);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	font-family: "Roboto", sans-serif;
+}
+
+
+
+.main{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+nav{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.sect{
+	color: grey;
+	text-align: center;
+	line-height: 40px;
+	padding-right: 20px;
+	padding-left: 20px;
+	height: 40px;
+	width: auto;
+	transition: font-weight 0.9s, color 0.6s;
+}
+
+.sect:hover{
+	color: white;
+}
+
+a{
+	text-decoration: none;
+}
+.button{
+	margin: 0;
+	height: 40px;
+	width: 120px;
+	background-color: orange;
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	transition: font-weight 0.6s, transform 0.7s;
+}
+
+.button:hover{
+	transform: scale(1.2);
+}
+
+img{
+	height: 36px;
+}
+
+section{
+	color: white;
+}
+
+span.h5{
+	font-size: 14px;
+	font-weight: 500;
+}
+
+span.h2{
+	font-size: 57.33px;
+	font-weight: 500;
+}
+
+section > p{
+	font-weight: 400;
+	font-size: 18px;
+	color: grey;
+}
+
+main.central_text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 49%;
+}
+
+nav > section.icon > div{
+	height: 40px;
+	overflow: hidden;
+}
+
+nav > section.icon > div > img{
+	position: center center;
+	height: 100px;
+	width: 100px;
+	margin-top: -27px;
+	margin-left: -25px;
+}
+
+div.max_div{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+main > section:first-child{
+	height: 250px;
+}
