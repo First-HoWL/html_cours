@@ -8,6 +8,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+<div class="first_img">
 <div class="max_div">
 
 	<nav>
@@ -30,18 +31,55 @@
 
 <main class="central_text">
 	<section></section>
-<section>
-	<span class="h5">FAST FOOD BURGERS</span><br>
-	<span class="h2">The fastest food, for instant hunger.</span>
-	<p>Some food has looked so awful that it's looked like something that the dog's brought home, yet after one mouthful I've been left eating my thoughts, my words & my food and gone back for seconds.</p>
-	<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><section class="button">ORDER NOW</section></a>
-	
-</section>
+
+	<section>
+		<span class="h5">FAST FOOD BURGERS</span><br>
+		<span class="h2">The fastest food, for instant hunger.</span>
+		<p>Some food has looked so awful that it's looked like something that the dog's brought home, yet after one mouthful I've been left eating my thoughts, my words & my food and gone back for seconds.</p>
+		<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><section class="button">ORDER NOW</section></a>
+	</section>
 
 </main>
 </div>
+</div>
+
+<div class="second_box">
+<div class="box">
+	<img src="https://s3-alpha-sig.figma.com/img/722e/7680/5a2e827e070ac613cbd996fbf1dc8d98?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QTIfe-MMMPJnNE5zuUKAl-o-3kQmEfzEJfjBrOJtpvCGJRIpxdc9SuAbPR~25iqpSslOJWiuWS1VC-oOvti4jZR0EsN1MM7mP7tRvV83qXU2nkdM6hSk~1Epm52sEQT8WsZo7P48LIMkRTiF~O99VLc--ZkI-27GZMW3WlXMGbbZCHWqYBpVslaHun4kRPzFcHARzHHAWjcFqqJCkmJaxgilaixuUeF0du43VNZOTceSnYpT7uQRh-fgD1jENWS7bJdcRTg2dHvusIHzhJ2BfejyODmxoeTjqp2i9mv9jvEbKQlBO6S4e1aahVrNuo5PTC9tDtutREmjyKIzVXqGew__">
+	<p>
+		<span class="h4">Chicken Paella</span><br>
+		We just don't make and sell food.Good food warms.
+	</p>
+</div>
+
+<div class="box">
+	<img src="https://s3-alpha-sig.figma.com/img/acef/efdc/8d651ed05c3db35b710927e26ea617a9?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=q-nV9WSQU1pFPFZDfrbYKcCTt8n~seSg6q4Ftwytkq3Ed~g1aY4EYP2KzHWuSoHfOov~IRjTsXc-cpBA-5aBueyOrIbikTNBdOwH7~D67tV5MudlmcFgdKIfvZi95xk-g-Sie8l~h~a9GNNKVge5AUZYha7uGNevqBpCIQPkUSA9agV8rZ8cCyeRexSjymQVexN~cHKyCBZlrD40Jy6DrmuhWESIGZG2bq2msEA4~eYjlq3pzwnwnoojSjcTyskrafdOssAU-6U4muY2P5JSNIaBhFfdUDxeI7jg2eTBG6UQkd0M5VMvHuqrk13fdj7p2MGOUEmQKSpXGnlvGe2Q1w__">
+	<p>
+		<span class="h4">Taco Del Mar</span><br>
+		Taco Del Mar brings the best out of Mexican cuisine with fresh.
+	</p>
+</div>
+
+<div class="box">
+	<img src="https://s3-alpha-sig.figma.com/img/9164/dc6e/3d085b7ac454a31862ecf31a5917e4ca?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AQ0m-ubJYm41ADrf10DHE~to4Bu03enaULIeA9JkN4ri4T48SR7MDbsUqA4OEULmQCcZXtwuoNkCTxbEtkNb~VCwyRyNsBknILTAL4MP-am9ycaH0P2s~PY6~~eXb4W-k5uNRsromaRVvLYkVIERSyAjeJlYzRIvI8~G1-hwEIwmQFuwHdyipGzoChT4eG2kvzO-5Gc54qEnjKe8II-Lbr83IIuYwtjxOr05do~27CQYu2Or5InFit7AY1n7oZO-CgJC1jioAu-WhlM6FcFCqmuzf~d~wXu3m9ZUf00o5dY906KuJi1PGvPgd5YSJ7P48ePZQIXDlnC8l2HNVTJBgg__">
+	<p>
+		<span class="h4">Bon Au Pain</span><br>
+	Bon Au Pain is a pioneer in the healthy fast food scene.
+	</p>
+</div>
+
+<div class="box">
+	<img src="https://s3-alpha-sig.figma.com/img/1256/5724/3301e791bc620e7243e3cb0fe3d3f16e?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XnGtx16posTnJ89Gx6s4dJMmH7LombYXzUQifEncllxxQBwmlLRUaZk8PWONRDlPHMI7wv6tojTMU5IKhizxwE6CW~k8B6Hx2unKBM7wTv4GSNhjRCEZu3MWgufK8-M1Ilxfl7b3CL0w0ChuyTnS2mzL~GBofSYquQN5JI4FmUsdPniIIMkErJZ7R5ahhWcEm8m8xQWydDQRXXITqFRMdp5JKmoU~nQottQNCxVSfghOq9khvppokE~uLxSPXn-jJ7-D2Dxs~Dn~oP6q0KvQHWXrCvvnyZu8QWw9Ll4U2ChDQ4~QiLJE22zTs4TUih5OTFwxebOPRYFmRaaEtOQXnA__">
+	<p>
+		<span class="h4">Pizza Hut.</span><br>
+		Although the Pizza Hut Menu Prices have tumbled over the years.
+	</p>
+</div>
+
+</div>
 </body>
 </html>
+
 
 
 css
@@ -49,15 +87,19 @@ css
 
 
 body{
-	background-image: url(https://s3-alpha-sig.figma.com/img/6904/8776/b42c9c5d9ec5e4c972446e63e68a65a4?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KfGBqXm7BkuLK85lQmzozSxLqZlaQ0jYYbKffDCTPCMfPtrxoOR~ITf2X4iGhpfBPlhRFGKz72BbWPO45Fb3VS31YYsBnHZAT-9idSM93X8sM44maUInGoc78~O4AlxX2iW8n9os8SSVoC9FBbyyE1LvdzSsBcUyH12Ew1KXsBAlQqlbt9uuOHEq34vYrIAhtupTbfbUzN9v4g2ioErss7uEwh1cNbzJ5NqHQHoNM2Ejnq23M61ynNdawOJnjzO0M0smp2PqaqAx5K7j6f-UoyupOV-YdyZH4nj8lC~p~tm70qUGXT5YrLP0BsF5uo6va-igJE7hGv9Tq5ub86CARQ__);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center center;
+	padding: 0;
+	margin: 0;	
 	font-family: "Roboto", sans-serif;
 }
 
-
+div.first_img{
+	background-image: url(https://s3-alpha-sig.figma.com/img/6904/8776/b42c9c5d9ec5e4c972446e63e68a65a4?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KfGBqXm7BkuLK85lQmzozSxLqZlaQ0jYYbKffDCTPCMfPtrxoOR~ITf2X4iGhpfBPlhRFGKz72BbWPO45Fb3VS31YYsBnHZAT-9idSM93X8sM44maUInGoc78~O4AlxX2iW8n9os8SSVoC9FBbyyE1LvdzSsBcUyH12Ew1KXsBAlQqlbt9uuOHEq34vYrIAhtupTbfbUzN9v4g2ioErss7uEwh1cNbzJ5NqHQHoNM2Ejnq23M61ynNdawOJnjzO0M0smp2PqaqAx5K7j6f-UoyupOV-YdyZH4nj8lC~p~tm70qUGXT5YrLP0BsF5uo6va-igJE7hGv9Tq5ub86CARQ__);
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
 
 .main{
 	display: flex;
@@ -109,9 +151,7 @@ a{
 	transform: scale(1.2);
 }
 
-img{
-	height: 36px;
-}
+
 
 section{
 	color: white;
@@ -119,6 +159,11 @@ section{
 
 span.h5{
 	font-size: 14px;
+	font-weight: 500;
+}
+
+span.h4{
+	font-size: 20px;
 	font-weight: 500;
 }
 
@@ -161,4 +206,40 @@ div.max_div{
 
 main > section:first-child{
 	height: 250px;
+}
+
+div.second_box{
+	background-color: #1C1C1C;
+	height: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+div.line{
+	display: flex;
+}
+
+div.box{
+	background-color: #312F30;
+	text-align: center;
+	color: white;
+	border-radius: 10px;
+	height: 323px;
+	width: 262px;
+	margin: 10px;
+	box-sizing: border-box;
+}
+
+div.box > p{
+	font-weight: 400;
+	font-size: 16px;
+	padding: 10px;
+	color: #FFFFFF;
+}
+
+div.box > img{
+	border-radius: 10px 10px 0 0;
+	height: 175px;
+	width: 262px;
 }
