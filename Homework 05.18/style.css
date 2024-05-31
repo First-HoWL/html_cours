@@ -1,0 +1,131 @@
+.first_box{
+    background-color: rgb(235, 122, 160);
+    padding: 15px;
+}
+
+ul.eat{
+    list-style-type: none;
+    list-style-position: inside;
+    padding-left: 20px;
+}
+
+ul.eat > li > div{
+    padding: 7px;
+    display: inline-block;
+    height: 20px;
+    background-color: rgb(160, 29, 73);
+}
+
+ul.eat > li:nth-child(1) > div{
+    width: 100px;
+}
+
+ul.eat > li:nth-child(2) > div{
+    width: 150px;
+}
+
+ul.eat > li:nth-child(3) > div{
+    width: 80px;
+}
+
+ul.eat > li:nth-child(4) > div{
+    width: 70px;
+}
+
+ul.eat > li:nth-child(5) > div{
+    width: 130px;
+}
+
+
+ul.eat > li::before{
+    display: inline-block;
+    padding-left: 10px;
+    margin-top: 0px;
+    width: 20px;
+    height: 20px;
+}
+/* Я не зрозумів як міняти marker від list-style-type: decimal тому зробив так */
+ul.eat > li:nth-child(1)::before{
+    content: "1.";
+}
+
+ul.eat > li:nth-child(2)::before{
+    content: "2.";
+}
+
+ul.eat > li:nth-child(3)::before{
+    content: "3.";
+}
+
+ul.eat > li:nth-child(4)::before{
+    content: "4.";
+}
+
+ul.eat > li:nth-child(5)::before{
+    content: "5.";
+}
+
+
+ul.eat > li{
+    padding: 0;
+    margin-bottom: 6px;
+    background-color: rgb(184, 60, 101);
+}
+
+div.second_box{
+    margin-top: 10px;
+    background-color: rgb(224, 221, 224);
+    padding: 15px;
+}
+
+div.second_box > ul{
+    list-style-type: none;
+    list-style-position: inside;
+    padding-left: 20px;
+}
+div.second_box > ul > li::before{
+    content: "";
+    background-image: url("https://cdn-icons-png.freepik.com/512/64/64571.png");
+    background-size: cover;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+div.second_box > ul > li{
+    height: 20px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #6fa8fd;
+}
+/* В мене не вийшло розташувати текст красиво */
+div.second_box > ul > li > div{
+    display: inline-block;
+    height: 30px;
+}
+
+div.second_box > ul > li:nth-child(odd){
+    background-color: #96b5e2;
+}
+
+div.second_box > ul > li.cross::before{
+    background-image: url("https://static-00.iconduck.com/assets.00/checkbox-checked-icon-256x256-5ht7e55d.png");
+}
+
+div.second_box > ul > li.cross{
+    background-color: rgb(187, 183, 183);
+}
+
+span{
+    color: rgb(122, 5, 5);
+    font-weight: bold;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+div.second_box > h2{
+    padding-left: 20px;
+}
