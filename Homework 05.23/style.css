@@ -1,0 +1,55 @@
+ul{
+    list-style: none;
+    list-style-position: inside;
+    cursor: pointer;
+    width: 270px;
+}
+
+ul > li{
+    text-transform: uppercase;
+    height: 80px;
+    background-color: gray;
+    padding-left: 10px;
+    
+}
+
+ul > li:hover{
+    background-color: #555454;
+}
+
+ul > li::before{
+    content: "";
+    height: 100%;
+    width: 80px;
+    background-size: cover;
+    display: inline-block;
+}
+
+ul > li:nth-child(1)::before{
+    background-image: url(Icons/edit.png);
+}
+
+ul > li:nth-child(2)::before{
+    background-image: url(Icons/favorites.png);
+}
+
+ul > li:nth-child(3)::before{
+    background-image: url(Icons/history.png);
+}
+
+ul > li:nth-child(4)::before{
+    background-image: url(Icons/security.png);
+}
+
+ul > li:nth-child(5)::before{
+    background-image: url(Icons/settings.png);
+}
+
+div{
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 32px;
+    box-sizing: border-box;
+    color: white;
+}
