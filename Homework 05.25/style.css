@@ -1,0 +1,111 @@
+div.general_div{
+    padding: 10px;
+    height: 700px;
+    background-color: rgb(253, 253, 191);
+    width: 840px;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+img.calc{
+    transform: rotate(-30deg);
+}
+
+img.book{
+    transform: rotate(-15deg);
+}
+
+img.note{
+    transform: rotate(15deg);
+}
+
+img.paint{
+    transform: rotate(210deg);
+}
+
+img.pensil{
+    transform: rotate(90deg);
+}
+
+div.calc{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin: 200px 0 0 200px;
+    opacity: 0;
+
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+div.book{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin: 150px 0 0 300px;
+    opacity: 0;
+
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+div.note{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin: 150px 0 0 420px;
+    opacity: 0;
+
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+div.paint{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin: 200px 0 0 520px;
+    opacity: 0;
+
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+div.pensil{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin: 280px 0 0 360px;
+    opacity: 0;
+
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes anim{
+    from{
+        transform: translateY(420px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
