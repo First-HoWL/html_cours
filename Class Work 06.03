@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Index2</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+	<nav>
+		<section class="icon"><h3>Пицца</h3></section>
+		<section class="main">
+			<div class="filter">Фильтры</div>
+		</section>
+	</nav>
+
+
+<div class="second_box">
+<div class="box">
+	<img src="https://s3-alpha-sig.figma.com/img/722e/7680/5a2e827e070ac613cbd996fbf1dc8d98?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QTIfe-MMMPJnNE5zuUKAl-o-3kQmEfzEJfjBrOJtpvCGJRIpxdc9SuAbPR~25iqpSslOJWiuWS1VC-oOvti4jZR0EsN1MM7mP7tRvV83qXU2nkdM6hSk~1Epm52sEQT8WsZo7P48LIMkRTiF~O99VLc--ZkI-27GZMW3WlXMGbbZCHWqYBpVslaHun4kRPzFcHARzHHAWjcFqqJCkmJaxgilaixuUeF0du43VNZOTceSnYpT7uQRh-fgD1jENWS7bJdcRTg2dHvusIHzhJ2BfejyODmxoeTjqp2i9mv9jvEbKQlBO6S4e1aahVrNuo5PTC9tDtutREmjyKIzVXqGew__">
+	<div class="div_in_text_wrap">
+		<p>
+			<span class="h4">Chicken Paella</span><br>
+			We just don't make and sell food.Good food warms.
+		</p>
+		<div class="line_in_box">
+			<div class="butn">Выбрать</div>
+			<div class="cost">от 99грн</div>
+		</div>
+	</div>
+</div>
+
+<div class="box">
+	<img src="https://s3-alpha-sig.figma.com/img/acef/efdc/8d651ed05c3db35b710927e26ea617a9?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=q-nV9WSQU1pFPFZDfrbYKcCTt8n~seSg6q4Ftwytkq3Ed~g1aY4EYP2KzHWuSoHfOov~IRjTsXc-cpBA-5aBueyOrIbikTNBdOwH7~D67tV5MudlmcFgdKIfvZi95xk-g-Sie8l~h~a9GNNKVge5AUZYha7uGNevqBpCIQPkUSA9agV8rZ8cCyeRexSjymQVexN~cHKyCBZlrD40Jy6DrmuhWESIGZG2bq2msEA4~eYjlq3pzwnwnoojSjcTyskrafdOssAU-6U4muY2P5JSNIaBhFfdUDxeI7jg2eTBG6UQkd0M5VMvHuqrk13fdj7p2MGOUEmQKSpXGnlvGe2Q1w__">
+	<div class="div_in_text_wrap">
+		<p>
+			<span class="h4">Taco Del Mar</span><br>
+			Taco Del Mar brings the best out of Mexican cuisine with fresh.
+		</p>
+		<div class="line_in_box">
+			<div class="butn">Выбрать</div>
+			<div class="cost">от 109грн</div>
+		</div>
+	</div>
+</div>
+
+<div class="box">
+	<img src="https://s3-alpha-sig.figma.com/img/9164/dc6e/3d085b7ac454a31862ecf31a5917e4ca?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=AQ0m-ubJYm41ADrf10DHE~to4Bu03enaULIeA9JkN4ri4T48SR7MDbsUqA4OEULmQCcZXtwuoNkCTxbEtkNb~VCwyRyNsBknILTAL4MP-am9ycaH0P2s~PY6~~eXb4W-k5uNRsromaRVvLYkVIERSyAjeJlYzRIvI8~G1-hwEIwmQFuwHdyipGzoChT4eG2kvzO-5Gc54qEnjKe8II-Lbr83IIuYwtjxOr05do~27CQYu2Or5InFit7AY1n7oZO-CgJC1jioAu-WhlM6FcFCqmuzf~d~wXu3m9ZUf00o5dY906KuJi1PGvPgd5YSJ7P48ePZQIXDlnC8l2HNVTJBgg__">
+	<div class="div_in_text_wrap">
+		<p>
+			<span class="h4">Bon Au Pain</span><br>
+		Bon Au Pain is a pioneer in the healthy fast food scene.
+		</p>
+		<div class="line_in_box">
+			<div class="butn">Выбрать</div>
+			<div class="cost">от 139грн</div>
+		</div>
+	</div>
+</div>
+
+<div class="box">
+	<img src="https://s3-alpha-sig.figma.com/img/1256/5724/3301e791bc620e7243e3cb0fe3d3f16e?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XnGtx16posTnJ89Gx6s4dJMmH7LombYXzUQifEncllxxQBwmlLRUaZk8PWONRDlPHMI7wv6tojTMU5IKhizxwE6CW~k8B6Hx2unKBM7wTv4GSNhjRCEZu3MWgufK8-M1Ilxfl7b3CL0w0ChuyTnS2mzL~GBofSYquQN5JI4FmUsdPniIIMkErJZ7R5ahhWcEm8m8xQWydDQRXXITqFRMdp5JKmoU~nQottQNCxVSfghOq9khvppokE~uLxSPXn-jJ7-D2Dxs~Dn~oP6q0KvQHWXrCvvnyZu8QWw9Ll4U2ChDQ4~QiLJE22zTs4TUih5OTFwxebOPRYFmRaaEtOQXnA__">
+	<div class="div_in_text_wrap">
+		<p>
+			<span class="h4">Pizza Hut</span><br>
+			Although the Hut Menu Prices have tumbled over the years.
+		</p>
+		<div class="line_in_box">
+			<div class="butn">Выбрать</div>
+			<div class="cost">от 129грн</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
+
+
+
+css
+
+
+
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
+}
+
+.main{
+	margin-top: 4px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 30px;
+	height: 30px;
+	width: 100px;
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+nav{
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+
+.icon{
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	line-height: 40px;
+	height: 40px;
+	width: 130px;
+}
+div.second_box{
+	height: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+div.line{
+	display: flex;
+}
+
+div.box{
+	border: 1px solid black;
+	
+	border-radius: 10px;
+	height: 484px;
+	width: 393px;
+	margin: 10px;
+	box-sizing: border-box;
+}
+
+div.box > div.div_in_text_wrap > p{
+	font-weight: 400;
+	font-size: 24px;
+	padding: 10px;
+	margin-bottom: 3px;
+}
+
+div.box > img{
+	border-radius: 10px 10px 0 0;
+	height: 262px;
+	width: 100%;
+}
+
+h3{
+	margin: 0;
+}
+
+span.h4{
+	font-size: 30px;
+	font-weight: 500;
+}
+
+div.line_in_box{
+	display: flex;
+	justify-content: space-between;
+}
+
+div.butn{
+	background-color: orange;
+	color: white;
+	padding: 20px 30px;
+	border-radius: 10px;
+	font-size: 20px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+div.cost{
+	color: orange;
+	padding: 20px 30px;
+	font-size: 20px;
+
+}
+
+
+@media (max-width: 676px){
+	div.second_box{
+		display: flex;
+		flex-direction: column;
+		align-items: normal;
+		justify-content: normal;
+		flex-wrap: nowrap;
+	}
+	div.box{
+		border: 1px solid black;
+		border-radius: 10px;
+		width: auto;
+		margin: 10px 0 10px 0;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: row;
+
+	}
+	div.box > img{
+		width: 40%;
+		height: auto;
+		border-radius: 10px 0 0 10px;
+		display: inline-block;
+	}
+	div.box > div.div_in_text_wrap > p{
+		font-weight: 400;
+		font-size: 16px;
+		padding: 10px;
+		margin: 0;
+		display: inline-block;
+	}
+	span.h4{
+	font-size: 24px;
+	font-weight: 500;
+	}
+	div.butn{
+		width: 0;
+		padding: 0;
+		margin-left: 10px;
+	}
+	div.line_in_box{
+		justify-content: flex-start
+	}
+	div.cost{
+		background-color: rgb(255, 165, 0, 0.2);
+		color: orange;
+		padding: 15px 22px;
+		font-size: 20px;
+		border-radius: 10px;
+	}
+
+}
