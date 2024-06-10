@@ -11,57 +11,359 @@
 <header>
     <nav>
         <div class="buttons">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-            <a href="#">Link 4</a>
-            <a href="#">Link 5</a>
+            <a href="#">Пиво</a>
+            <a href="#">Правила гри</a>
+            <a href="#">сувеніри</a>
+            <a href="#">Оплата і доставка</a>
         </div>
+        <div class="icon"></div>
+        <div class="buttons">
+            <a href="#">Про броварню</a>
+            <a href="#">краутфандинг</a>
+            <a href="#">контакти</a>
+            <a href="#">Eng</a>
+        </div>
+            <div class="icons_box"><div class="icons"></div></div>
     </nav>
-
-
 </header>
+<hr>
+<div class="pivo">
+<h2>ПИВО</h2>
+</div>
 
+<div class="general_beer">
+    <div class="beer_position">
+        <img src="https://s3-alpha-sig.figma.com/img/44fe/5f53/ed91478d5d8ecf1d5e454b5e9c6a9536?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LRYJyCc-1odCjV7QKoIPYUhcIN8sf5cNZ7wemATardR3LKxF5jooDVVRGUeYSzfplKaHqSce6kR7B2SS9vFQW3oIIAuJoDKIwd3nVW6bz1Jvg8AZ-HugDN0pq5gwBbtCG07gn5GcV1aaJi~NCD3GTUW56haGWOG-VAcrY3WKdThTCm7ZlS6w~AF5~kZ2F-BpRZ3BlJt4C6wjJKt9w0LEAkqRicQvwUk5zukjZkvq-LJu0X-feiIiXdGjpwgP3Pb1~WBTIMj9CKIjz5IBYFfOoDIF5U4vsgj3~eRRrz93a8ECWzWGihxgdxQLSEH5TwG7Y4c7leR-G2ZS7FCet6-kyg__">
+        <p>BERRY BLOOD: tomato and pepper(PICO DE GALLO edition)</p>
+        
+        <div class="inline">
+            <div>Sore Fruited Gose</div>
+            <div>0.5 L</div>
+        </div>
+        ALC. 4% OG: 12,5% IBU:12
 
+    </div>
 
+    <div class="beer_position">
+        <img src="https://s3-alpha-sig.figma.com/img/9775/2a22/98c92c2783ca1188aa16b1b17b486324?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WT6unHR4ilo50ADsEVA8Vef1hwxMJaXHNEcGitVpBNIrR4nIS0QAtlxeB5cQnAz766WDP7KvwGOhf6o38JZTTMxfPTCJoyUw3EmdXA4lZ6JryZMvoAgcLgvNelpCPBqcyTAmevP3gkhnEI-ts0nfN3g9JIlFYUckiVb6F4InJh0ylbasxbFBYYUSBcg0tsdh70JyDiwib5dvfmY5QXJnTYS2QMdfGG8au9GAOZRg0AYJaNnffMW~KIGOqXhIpJQR~-1XbNCF-u7la94dBd4axb5G1gsoqWEyJdUHtsUa9ZxXrhb13yrcdFAHwI-VRWY~BHfco1~cITrT~DHjqfK9gA__">
+        <p>BERRY BLOOD: tomato and pepper(PICO DE GALLO edition)</p>
+        
+        <div class="inline">
+            <div>Sore Fruited Gose</div>
+            <div>0.5 L</div>
+        </div>
+        ALC. 4% OG: 12,5% IBU:12
+
+    </div>
+
+    <div class="beer_position">
+        <img src="https://s3-alpha-sig.figma.com/img/f666/b5a1/48b65bcda98a7881a9c85b251b11c64a?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hJyaXAcbtxi6QW~dD-j1vs9Y8alGkD11I0yukDyRRZKnrRlB-ow4shL1e2BjUriIlyKbjMEtvq3ZFgbYkiDeu40~jrQUM7NnY~MzdO-j9gobNqNxCdZGJwyAaYzollgA~cp8CiG0esuV3DAU~PMk-fDp1lMRJ-nOYK3WKGmr0-zcbBjnKzNB9GS8l0K-TggEbVXifsbvb95JhgfUnwKhVL4eNDoR3orRiaKJm71hKWEUOurGUdiDYBUSRGLCR5d90Qqb2762xP-Mz5cWIF8RjHi3zdr66N8sWBkPg0OpO4x9yynU28dscqdLxMZDdBuqRq6Mpi-GwcV1jJ3-XYCsmA__">
+        <p>BERRY BLOOD: tomato and pepper(PICO DE GALLO edition)</p>
+        
+        <div class="inline">
+            <div>Sore Fruited Gose</div>
+            <div>0.5 L</div>
+        </div>
+        ALC. 4% OG: 12,5% IBU:12
+
+    </div>
+
+    <div class="beer_position">
+        <img src="https://s3-alpha-sig.figma.com/img/e9b9/1e0b/fe01d81fc0fc00ce8c31af905cabcbb7?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=X1IwMgTKK0RHRNh8Fqo1EpxIoBad8qFf7uWQ9G~CDrmnUBcWUUc4hOklJxwrpSdtnaUbaKEm1FDVoJRj8JHBlxWtqbTcgWy5rF2niT52iR6cbYkymtif3khzf9HQ2KcFfSwlq71IAgB9vg1zhaYiPPR~Hl9mu7hkNSuNJwikDntKszG2Nv7gJsSeAhs8633Xt4G6qSJzNBwOvM1b3Hl8QtjuSrKGCPd5AgeT-8jWehcla9VUnkvvyKAxQnJTbpcLNL4SYF7reBRdhWQr3LB00b9t3PeNX4EzPVNEm6dK5Dg~1P-VCXtt2cDepHx8sFIzqlSxQXhh5hiO3Ug8aoB9Gw__">
+        <p>BERRY BLOOD: tomato and pepper(PICO DE GALLO edition)</p>
+        
+        <div class="inline">
+            <div>Sore Fruited Gose</div>
+            <div>0.5 L</div>
+        </div>
+        ALC. 4% OG: 12,5% IBU:12
+
+    </div>
+
+    <div class="beer_position">
+        <img src="https://s3-alpha-sig.figma.com/img/369a/21e6/2f125291cfc919fe519e95a7b636c379?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TNVz0ge5mcPwwlKED5YXpNe28WTIsnlGUgL5LkLaNx7WFEjIN6Qz3uwJeWTYc6AJLUSc6vZPZvE7Ek9Pk3aUP4xf2DrwS1ezmliXWaQPpDcOIKJu48DaJmoSEVr5Y5cZmqTcA0cTZFiIZmdRgzcGorasBIBuVS389hvhlhq06dKPKl9ecy-s-XxjjWTYeW5tKye6BfxXQOk8TqxBXNsK2ct4jL~kA2tH17TdOcGhsjarTEcY5HH4X5A5PrIXWLOTtW0nY1~KQmJ4qJg4umLmq2MnSId72c-03r~tMSw5JIcSXQFnM3tip9RUuRZChe4d4alGrsP1IosQ6KyURiRIKw__">
+        <p>BERRY BLOOD: tomato and pepper(PICO DE GALLO edition)</p>
+        
+        <div class="inline">
+            <div>Sore Fruited Gose</div>
+            <div>0.5 L</div>
+        </div>
+        ALC. 4% OG: 12,5% IBU:12
+
+    </div>
+
+    <div class="beer_position">
+        <img src="https://s3-alpha-sig.figma.com/img/fad9/d640/f6911949f8c7c859c96a49d5c4f1bafa?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UtyVue6rO~d8we2OOPJzcNf33A2Gb8E6oJGuywkYKNJDLKfihvOPt~~q8-tTbSal9FTMoBiVfYRocxm9odp7F3PAc6odMGkZ5tJ~VWCtJCMRzIT4vFiPWHTT4YlNnGudb1j9xOFt-v9mgKoriTmAaYVrpyySV54S74NX0Hb~2Q347PzJWHPaDIFdBlTDJgD6yICO0vEhzCZQ8Uek6BGPQqJ2AhT9sqmoZ9tWtPQKeJJye~S9i3FwQzAjLolGmBTZnhVQFnOSEgAByGSN0Ec05Y3tMX39V8w7F80Qy8RCOLMi11huGWXV2tRtfETu5g0rOmMGJNLt7aq0zrMFA-bGZw__">
+        <p>BERRY BLOOD: tomato and pepper(PICO DE GALLO edition)</p>
+        
+        <div class="inline">
+            <div>Sore Fruited Gose</div>
+            <div>0.5 L</div>
+        </div>
+        ALC. 4% OG: 12,5% IBU:12
+
+    </div>
+
+    <div class="beer_position">
+        <img src="https://s3-alpha-sig.figma.com/img/653c/5f3b/3e82d97bcbb008842188472767fb7816?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=V45JmVR-z-VxOZe2ZiKCZRrLnrXyXsXxEjEZPXGRZoAKc8-I5Vvz6ba0XNu6l6ZGKtmHRpecpviZCMaRhNsG9CckQ0uzAUv~C2gTHI1VePrZojJzAB2oO0QcJkyGt7S7DSOxTipfSmuRdujkkJ5~PWtuv02i9Qnw7JUqbHgdKTIMvAEVSBpILOP7x59Dow9RVwuLTdTsjG8~WstKGTxMccyLAu1uMnd6fSkgjviKQnvaAzHeGNt4t2X3MJcp9rYZWBu-PxEENhQAtvfkRjAfs~6z-ogFHVflJrhFjYH4EmU8HNrDpi25SeCJl58SbUgKY6aUuzCd7hfwTq7EzkarOQ__">
+        <p>BERRY BLOOD: tomato and pepper(PICO DE GALLO edition)</p>
+        
+        <div class="inline">
+            <div>Sore Fruited Gose</div>
+            <div>0.5 L</div>
+        </div>
+        ALC. 4% OG: 12,5% IBU:12
+
+    </div>
+
+    <div class="beer_position">
+        <img src="https://s3-alpha-sig.figma.com/img/010e/a771/3e782f10d628a7fd53f3515e3f2d43b7?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=f19FEbuqAX4sJgDmjMTU7Jbx9JCmDMXRJOesW0woTRhqof~BlmAwapm0GANL59VpaHKUR5KrhV-AmJWCoN0fF5xk3t8Dq5QQ2lGvEwhe8OnQ-UthQQ6SRDkRS4EvH6CmemgZ7XfO9qbcwq50ukvm~5c~F54cC361E~SKLYCnqxrAzzCNbS1hhJDmHkJb8QrfATlKYSo9flf0Fq1BkXEr0wxVtGOLkJ-4Jvk2NCv-nift3jMjF0FfbL7wNHrXHA5btWZGQgdK2kALQp8A6f0oCsHjRYc1psEKnsKXKaw3iZV7WzMHWEu04Lo8dTbtC2nWQiSs~-xiVb-~9tolta2BCg__">
+        <p>BERRY BLOOD: tomato and pepper(PICO DE GALLO edition)</p>
+        
+        <div class="inline">
+            <div>Sore Fruited Gose</div>
+            <div>0.5 L</div>
+        </div>
+        ALC. 4% OG: 12,5% IBU:12
+
+    </div>
+
+    <div class="beer_position">
+        <img src="https://s3-alpha-sig.figma.com/img/369a/21e6/2f125291cfc919fe519e95a7b636c379?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TNVz0ge5mcPwwlKED5YXpNe28WTIsnlGUgL5LkLaNx7WFEjIN6Qz3uwJeWTYc6AJLUSc6vZPZvE7Ek9Pk3aUP4xf2DrwS1ezmliXWaQPpDcOIKJu48DaJmoSEVr5Y5cZmqTcA0cTZFiIZmdRgzcGorasBIBuVS389hvhlhq06dKPKl9ecy-s-XxjjWTYeW5tKye6BfxXQOk8TqxBXNsK2ct4jL~kA2tH17TdOcGhsjarTEcY5HH4X5A5PrIXWLOTtW0nY1~KQmJ4qJg4umLmq2MnSId72c-03r~tMSw5JIcSXQFnM3tip9RUuRZChe4d4alGrsP1IosQ6KyURiRIKw__">
+        <p>BERRY BLOOD: tomato and pepper(PICO DE GALLO edition)</p>
+        
+        <div class="inline">
+            <div>Sore Fruited Gose</div>
+            <div>0.5 L</div>
+        </div>
+        ALC. 4% OG: 12,5% IBU:12
+
+    </div>
+
+    <div class="beer_position">
+        <img src="https://s3-alpha-sig.figma.com/img/fad9/d640/f6911949f8c7c859c96a49d5c4f1bafa?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UtyVue6rO~d8we2OOPJzcNf33A2Gb8E6oJGuywkYKNJDLKfihvOPt~~q8-tTbSal9FTMoBiVfYRocxm9odp7F3PAc6odMGkZ5tJ~VWCtJCMRzIT4vFiPWHTT4YlNnGudb1j9xOFt-v9mgKoriTmAaYVrpyySV54S74NX0Hb~2Q347PzJWHPaDIFdBlTDJgD6yICO0vEhzCZQ8Uek6BGPQqJ2AhT9sqmoZ9tWtPQKeJJye~S9i3FwQzAjLolGmBTZnhVQFnOSEgAByGSN0Ec05Y3tMX39V8w7F80Qy8RCOLMi11huGWXV2tRtfETu5g0rOmMGJNLt7aq0zrMFA-bGZw__">
+        <p>BERRY BLOOD: tomato and pepper(PICO DE GALLO edition)</p>
+        
+        <div class="inline">
+            <div>Sore Fruited Gose</div>
+            <div>0.5 L</div>
+        </div>
+        ALC. 4% OG: 12,5% IBU:12
+
+    </div>
+
+    <div class="beer_position">
+        <img src="https://s3-alpha-sig.figma.com/img/653c/5f3b/3e82d97bcbb008842188472767fb7816?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=V45JmVR-z-VxOZe2ZiKCZRrLnrXyXsXxEjEZPXGRZoAKc8-I5Vvz6ba0XNu6l6ZGKtmHRpecpviZCMaRhNsG9CckQ0uzAUv~C2gTHI1VePrZojJzAB2oO0QcJkyGt7S7DSOxTipfSmuRdujkkJ5~PWtuv02i9Qnw7JUqbHgdKTIMvAEVSBpILOP7x59Dow9RVwuLTdTsjG8~WstKGTxMccyLAu1uMnd6fSkgjviKQnvaAzHeGNt4t2X3MJcp9rYZWBu-PxEENhQAtvfkRjAfs~6z-ogFHVflJrhFjYH4EmU8HNrDpi25SeCJl58SbUgKY6aUuzCd7hfwTq7EzkarOQ__">
+        <p>BERRY BLOOD: tomato and pepper(PICO DE GALLO edition)</p>
+        
+        <div class="inline">
+            <div>Sore Fruited Gose</div>
+            <div>0.5 L</div>
+        </div>
+        ALC. 4% OG: 12,5% IBU:12
+
+    </div>
+
+    <div class="beer_position">
+        <img src="https://s3-alpha-sig.figma.com/img/010e/a771/3e782f10d628a7fd53f3515e3f2d43b7?Expires=1719187200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=f19FEbuqAX4sJgDmjMTU7Jbx9JCmDMXRJOesW0woTRhqof~BlmAwapm0GANL59VpaHKUR5KrhV-AmJWCoN0fF5xk3t8Dq5QQ2lGvEwhe8OnQ-UthQQ6SRDkRS4EvH6CmemgZ7XfO9qbcwq50ukvm~5c~F54cC361E~SKLYCnqxrAzzCNbS1hhJDmHkJb8QrfATlKYSo9flf0Fq1BkXEr0wxVtGOLkJ-4Jvk2NCv-nift3jMjF0FfbL7wNHrXHA5btWZGQgdK2kALQp8A6f0oCsHjRYc1psEKnsKXKaw3iZV7WzMHWEu04Lo8dTbtC2nWQiSs~-xiVb-~9tolta2BCg__">
+        <p>BERRY BLOOD: tomato and pepper(PICO DE GALLO edition)</p>
+        
+        <div class="inline">
+            <div>Sore Fruited Gose</div>
+            <div>0.5 L</div>
+        </div>
+        ALC. 4% OG: 12,5% IBU:12
+
+    </div>
+
+</div>
+
+<div class="pivo_last">
+    <div class="first_button">1</div>
+    <div class="second_button">2</div>
+</div>
+
+<hr>
+
+<footer>
+<div class="buttons">
+    <a href="#">Пиво</a>
+    <a href="#">Правила гри</a>
+    <a href="#">сувеніри</a>
+    <a href="#">Оплата і доставка</a>
+    <a href="#">Про броварню</a>
+    <a href="#">краутфандинг</a>
+    <a href="#">контакти</a>
+</div>
+</footer>
+<section>
+    <div class="text">+380 (96) 917-30-32</div>
+    <div class="footer_icons"></div>
+
+</section>
 
 </body>
 </html>
 
-
 css
+
 
 
 body{
     padding: 0;
     margin: 0;
+    background-color: #000000;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
 header{
     position: relative;
-    background-color: #3e89eb;
+    background-color: #000000;
 }
-nav > .buttons{
+.buttons{
     display: flex;
     justify-content: center;
+    text-transform: uppercase;
 }
 
+div.icon{
+    background-image: url(Layer_1.png);
+    height: 68px;
+    width: 167px;
+    display: inline-block;
+}
 
-nav a{
-    display: block;
+a{
+    display: inline-block;
     padding: 20px 40px;
     text-decoration: none;
     color: white;
+}
+
+div.icons{
+    background-image: url(Vector.png);
+    height: 40px;
+    width: 40px;
+    background-position: center center;
+    background-size: 36px;
+    background-repeat: no-repeat;
+    margin-top: 8px;
+}
+
+div.icons_box{
+    vertical-align: middle;
 }
 
 nav a:hover{
     background-color: #0000001a;
 }
 
+h2{
+    text-align: center;
+    color: white;
+    font-weight: 64px;
+}
+
+div.pivo{
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.general_beer{
+    display: flex;
+    padding: 30px 100px;
+    justify-content: space-evenly;
+    flex-wrap: wrap
+}
+
+div.beer_position{
+    height: 552px;
+    width: 360px;
+    border: 1px solid gray;
+    display: inline-block;
+    margin: 10px;
+}
+
+div.beer_position {
+    font-size: 20px;
+}
+
+div.inline{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.beer_position > img{
+    height: 360px;
+    width: 360px;
+}
+
+div.pivo_last{
+    width: 100vw;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+}
+
+div.pivo_last > div.first_button{
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    margin-right: 20px;
+    display: inline-block;
+    border: 1px solid #FFFFFF
+}
+
+div.pivo_last > div.second_button{
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    border: 1px solid #292929;
+    color: #292929;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.text{
+    font-size: 20px;
+}
+
+div.footer_icons{
+    background-image: url(Frame\ 18.png);
+    height: 24px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
 @media (max-width: 676px){
     nav {
-        display: inline-block;
+        display: flex;
         padding: 0 10px;
+        justify-content: space-between;
     }
     
     nav::before{
@@ -69,34 +371,57 @@ nav a:hover{
         display: block;
         width: 46px;
         height: 46px;
-        margin: 4px;
+        margin: 14px;
         background-size: contain;
-        background-image: url(icons8-menu.svg);
+        background-image: url(Vector\ \(1\).png);
     }
 
     nav > .buttons{
         display: none;
-        position: absolute;
-        width: 60%;
-        height: 100vh;
-        left: -60%;
-        top: 0;
-        background-color: #2869be;
-        box-shadow:  50vw 0 0 #00000000;
-        display: flex;
-        flex-direction: column;
-        justify-content: normal;
-        transition: left 0.5s, box-shadow 0.5s;
     }
 
-    nav a{
-        color: white;
+    div.pivo{
+        width: 100vw;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
-    
-    nav:hover > .buttons{
-        
-        box-shadow:  50vw 0 50px #00000075;
-        left: 0%;
+
+    div.beer_position > img{
+        height: 152px;
+        width: 152px;
+    }
+
+    div.beer_position{
+        text-align: center;
+        height: 300px;
+        width: 191px;
+        border: 1px solid gray;
+        display: inline-block;
+        margin: 10px;
+    }
+
+    div.general_beer{
+        display: flex;
+        padding: 30px 50px;
+        justify-content: space-evenly;
+        flex-wrap: wrap
+    }
+
+    div.beer_position > p{
+        font-size: 14px;
+        text-align: left;
+        padding: 5px;
+    }
+
+    div.beer_position {
+        font-size: 14px;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
     }
 }
-
