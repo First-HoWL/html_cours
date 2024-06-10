@@ -49,7 +49,7 @@ nav > .buttons{
 
 nav a{
     display: block;
-    padding: 30px 40px;
+    padding: 20px 40px;
     text-decoration: none;
     color: white;
 }
@@ -67,8 +67,8 @@ nav a:hover{
     nav::before{
         content: "";
         display: block;
-        width: 32px;
-        height: 32px;
+        width: 46px;
+        height: 46px;
         margin: 4px;
         background-size: contain;
         background-image: url(icons8-menu.svg);
@@ -99,3 +99,4 @@ nav a:hover{
         left: 0%;
     }
 }
+
