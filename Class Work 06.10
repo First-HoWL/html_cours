@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <meta charset="UTF-8">
+          <title>Document</title>
+          <link rel="stylesheet" 
+                type="text/css"
+                href="style.css">
+     </head>
+<body>
+<header>
+    <nav>
+        <div class="buttons">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+            <a href="#">Link 5</a>
+        </div>
+    </nav>
+
+
+</header>
+
+
+
+
+</body>
+</html>
+
+
+css
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    position: relative;
+    background-color: #3e89eb;
+}
+nav > .buttons{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    padding: 10px;
+}
+
+nav a{
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    background-color: #0000001a;
+}
+
+@media (max-width: 500px){
+    nav {
+        display: inline-block;
+    }
+    
+    nav::before{
+        content: "";
+        display: block;
+        width: 32px;
+        height: 32px;
+        margin: 4px;
+        background-size: contain;
+        background-image: url(icons8-menu.svg);
+    }
+
+    nav > .buttons{
+        display: none;
+        position: absolute;
+        width: 60%;
+        height: 100vh;
+        left: 0;
+        top: 0;
+        background-color: #2869be;
+        box-shadow: 0 0 0 40% black;
+    }
+
+    nav a{
+        color: white;
+    }
+    
+    nav:hover > .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+}
