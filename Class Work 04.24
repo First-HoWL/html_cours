@@ -28,3 +28,42 @@
         </div>
     </body>
 </html>
+
+
+css
+
+
+
+#g{
+    height: 4px;
+    width: 35px;
+    background-color: purple;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 3px;
+    margin-bottom: 6px;
+    }
+#but1{
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    border-color: white;
+}
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-image: url(https://i0.wp.com/top-fon.com/uploads/posts/2023-01/1674780153_top-fon-com-p-chernii-krasivii-fon-dlya-prezentatsii-172.jpg?ssl=1);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    text-align:justify;
+}
+#general_div{
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 1000px;
+    padding: 4px;
+}
+#h2_lorem_Ipsum{
+    text-align: center;
+}
