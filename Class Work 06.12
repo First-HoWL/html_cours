@@ -33,13 +33,12 @@
 </div>
 -->
 <form>
-<input type="date">
-<input type="time">
+
 
 
 <div class="text_block">
 <h3>О вас</h3>
-    <div>
+    <div class="text_in_block">
         <div class="name">
         <span>Имя*</span>
         <input type="text" required placeholder="Ваше Имя">
@@ -57,58 +56,64 @@
 
 
 <div class="text_block">
-    <h3>Доставка</h3>
-        <div>
+    <div class="line">
+        <span class="dostavka">Доставка</span>
+        <section class="delivery">
+            <input type="radio" name="radio_dellivery" id="radio_dellivery_1"><label for="radio_dellivery_1"><article>Доставка</article></label>
+            
+            <input type="radio" name="radio_dellivery" id="radio_dellivery_2"><label for="radio_dellivery_2"><article>Самовывезення</article></label>
+            
+            </section>
+    </div>
+        <div class="second_text_in_block">
             <div class="name">
             <span class="text">Ресторан*</span>
-            <select name="VAN" id="select" placeholder="Выберите ресторан">
+            <select name="VAN" id="select_rest" placeholder="Выберите ресторан">
                 <option>Пузата хата</option>
                 <option>КФС</option>
                 <option>Пицца Дей</option>
             </select>
             </div>
+            <div class="name">
+            <span class="text">Когда выполнить заказ?</span>
+            <input type="radio" name="radio_1"><p>Как можно скорее</p>
+            <input type="radio" name="radio_1"><p>По времени</p>
+            <input type="date">
+            <input type="time">
+
+            </div>
         </div>
     </div>
 
+    <div class="text_block">
+        <h3>Оплата</h3>
+                <div class="name">
+                
+                <input type="radio" name="radio_2"><p>Наличными</p>
+                <input type="radio" name="radio_2"><p>Картой</p>
+                <input type="radio" name="radio_2"><p>Apple pay</p>
+                </div>
+            </div>
+        </div>
 
-
-
-
-
-
-
-<select name="VAN" id="select" placeholder="Выберите ресторан">
-    <option>Пузата хата</option>
-    <option>КФС</option>
-    <option>Пицца Дей</option>
-</select>
-
-
-
-<textarea name="name" id="textarea"></textarea>
-<select name="VAN" id="select">
-    <option>V1</option>
-    <option>V2</option>
-    <option>V3</option>
-</select>
-<input type="text" class="username" placeholder="Username" required>
-<input type="password" class="password" placeholder="Password" required>
-<button>Login</button>
-<a href="#">Forgot password?</a>
-</form>
-
-<div class="under_form"> 
-    <span>... or log in with:</span>
-    <div class="line">
-        <div class="social_media">Facebook</div>
-        <div class="social_media">Twitter</div>
+    <div class="text_block">
+        <h3>Коментарии</h3>
+        <textarea name="comments" id="textarea"></textarea>
     </div>
 
+
+    <div class="line">
+        <span>Итого 1199грн</span>
+        <span>Оформить заказ</span>
+    </div>
 </div>
+
+
 
 
 </body>
 </html>
+
 
 
 css
@@ -126,12 +131,34 @@ body{
 form{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
     background-color: lightgray;
-    width: 300px;
+    
     padding: 25px;
     box-sizing: border-box;
     box-shadow: 0 0 30px rgb(0, 0, 0);
+}
+
+div.text_block{
+    display: flex;
+    flex-direction: column;
+}
+
+div.text_in_block{
+    display: flex;
+}
+
+div.name{
+    display: flex;
+}
+
+select.select_rest{
+    width: 100%;
+}
+
+div.second_text_in_block{
+    display: flex;
+    flex-direction: column;
 }
 
 input{
@@ -176,6 +203,7 @@ div.under_form{
 div.line{
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
 }
 
 div.social_media{
@@ -186,12 +214,17 @@ div.social_media{
     cursor: pointer;
 }
 
-div.social_media:first-child{
-    background-color: blue;
+div.line > span:first-child{
+    background-color: none;
+    color: orangered;
+    padding: 15px 0px;
 }
 
-div.social_media:last-child{
-    background-color: rgb(88, 171, 199);
+div.line > span:last-child{
+    background-color: orangered;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
 }
 
 span{
@@ -211,4 +244,31 @@ div.general{
 
 textarea{
     resize: none;
+}
+
+section.delivery{
+    display: flex;
+    margin: 30px 0;
+}
+section.delivery article{
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #e2e2e2;
+    border-radius: 10px;
+}
+section.delivery input[type="radio"]{
+    display: none;
+}
+section.delivery input[type="radio"]:checked + label > article{
+    background-color: orangered;
+}
+input[type="radio"]{
+    accent-color: orange;
+}
+
+span.dostavka{
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
 }
