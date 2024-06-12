@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!--
+<form>
+    <input type="text" value="Input" placeholder="Message">
+    <input type="email" value="Mail" required placeholder="Email">
+    <button>Button</button>
+</form>
+
+<div class="checkboxes">
+    <input type="checkbox" id="checkbox_1"><p><label for="checkbox_1">Variant 1</label></p>
+    <input type="checkbox" id="checkbox_2"><p><label for="checkbox_2">Variant 2</label></p>
+    <input type="checkbox" id="checkbox_3"><p><label for="checkbox_3">Variant 3</label></p>
+    <input type="checkbox" id="checkbox_4"><p><label for="checkbox_4">Variant 4</label></p>
+    <input type="checkbox" id="checkbox_5"><p><label for="checkbox_5">Variant 5</label></p>
+</div>
+<h3>Radiobutton</h3>
+<div class="checkboxes">
+    <input type="radio"><p>Variant 1</p>
+    <input type="radio"><p>Variant 2</p>
+    <input type="radio"><p>Variant 3</p>
+    <input type="radio"><p>Variant 4</p>
+    <input type="radio"><p>Variant 5</p>
+</div>
+-->
+
+<div class="general">
+<form>
+<h3>Member Login</h3>
+<input type="text" class="username" placeholder="Username" required>
+<input type="password" class="password" placeholder="Password" required>
+<button>Login</button>
+<a href="#">Forgot password?</a>
+</form>
+
+<div class="under_form"> 
+    <span>... or log in with</span>
+    <div class="line">
+        <div class="social_media">Facebook</div>
+        <div class="social_media">Twitter</div>
+    </div>
+
+</div>
+
+</div>
+
+</body>
+</html>
+
+css
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    width: 300px;
+    padding: 25px;
+    box-sizing: border-box;
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+}
+
+body{
+    background-color: rgb(255, 60, 60);
+}
+
+input{
+    background-color: #ffffff31;
+    border: none;
+    text-align: center;
+    height: 35px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+input:focus{
+    outline: none !important;
+    border-bottom: 1px solid black;
+}
+
+button{
+    height: 35px;
+    width: 100%;
+    background-color: green;
+    border: none;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-bottom: 3px solid rgb(4, 99, 4);
+    
+}
+
+a{
+    text-decoration: none;
+    color: orangered;
+}
+
+div.under_form{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+}
+div.line{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.social_media{
+    display: inline-block;
+    color: white;
+    padding: 15px 40px;
+    box-shadow: 0 0 7px black;
+    cursor: pointer;
+}
+
+div.social_media:first-child{
+    background-color: blue;
+}
+
+div.social_media:last-child{
+    background-color: rgb(88, 171, 199);
+}
+
+span{
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+}
+
+div.general{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 98vw;
+    justify-content: center;
+    align-items: center;
+}
