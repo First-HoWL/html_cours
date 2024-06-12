@@ -4,6 +4,9 @@
   <meta charset="UTF-8">
   <title>Document</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--
@@ -29,10 +32,65 @@
     <input type="radio"><p>Variant 5</p>
 </div>
 -->
-
-<div class="general">
 <form>
-<h3>Member Login</h3>
+<input type="date">
+<input type="time">
+
+
+<div class="text_block">
+<h3>О вас</h3>
+    <div>
+        <div class="name">
+        <span>Имя*</span>
+        <input type="text" required placeholder="Ваше Имя">
+        </div>
+        <div class="name">
+            <span>Номер телефона*</span>
+            <input type="tel" required placeholder="Ваш номер телефона">
+        </div>
+        <div class="name">
+            <span>Почта*</span>
+            <input type="email" required placeholder="Ваша почта">
+        </div>
+    </div>
+</div>
+
+
+<div class="text_block">
+    <h3>Доставка</h3>
+        <div>
+            <div class="name">
+            <span class="text">Ресторан*</span>
+            <select name="VAN" id="select" placeholder="Выберите ресторан">
+                <option>Пузата хата</option>
+                <option>КФС</option>
+                <option>Пицца Дей</option>
+            </select>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+<select name="VAN" id="select" placeholder="Выберите ресторан">
+    <option>Пузата хата</option>
+    <option>КФС</option>
+    <option>Пицца Дей</option>
+</select>
+
+
+
+<textarea name="name" id="textarea"></textarea>
+<select name="VAN" id="select">
+    <option>V1</option>
+    <option>V2</option>
+    <option>V3</option>
+</select>
 <input type="text" class="username" placeholder="Username" required>
 <input type="password" class="password" placeholder="Password" required>
 <button>Login</button>
@@ -40,7 +98,7 @@
 </form>
 
 <div class="under_form"> 
-    <span>... or log in with</span>
+    <span>... or log in with:</span>
     <div class="line">
         <div class="social_media">Facebook</div>
         <div class="social_media">Twitter</div>
@@ -48,14 +106,22 @@
 
 </div>
 
-</div>
 
 </body>
 </html>
 
+
 css
 
 
+
+
+body{
+    background-color: rgb(255, 60, 60);
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
 form{
     display: flex;
@@ -66,10 +132,6 @@ form{
     padding: 25px;
     box-sizing: border-box;
     box-shadow: 0 0 30px rgb(0, 0, 0);
-}
-
-body{
-    background-color: rgb(255, 60, 60);
 }
 
 input{
@@ -93,7 +155,7 @@ button{
     border: none;
     color: white;
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     cursor: pointer;
     border-bottom: 3px solid rgb(4, 99, 4);
     
@@ -141,8 +203,12 @@ span{
 div.general{
     display: flex;
     flex-direction: column;
-    height: 90vh;
-    width: 98vw;
+    height: 100vh;
+    width: 100vw;
     justify-content: center;
     align-items: center;
+}
+
+textarea{
+    resize: none;
 }
