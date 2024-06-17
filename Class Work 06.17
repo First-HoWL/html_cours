@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Index</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+	<div class="container mx-0">
+		<div class="row bg-secondary p-3">
+			<div class="col-1 bg-Secondary ">
+				<h5 class="text-light m-0">Bootstrap</h5>
+			</div>
+
+			<div class="col-1 bg-Secondary ">
+				<h5 class="text-light m-0">HOME</h5>
+			</div>
+
+			<div class="col-1 bg-Secondary ">
+				<h5 class="fw-bold ">BLOG</h5>
+			</div>
+
+			<div class="col-1 bg-Secondary ">
+				<h5 class="fw-bold">ABOUT</h5>
+			</div>
+
+			<div class="col-1 bg-Secondary ">
+				<h5 class="fw-bold">CONTACT</h5>
+			</div>
+		</div>
+	</div>
+
+<div class="bg-image row my_flex ">
+	<div class="text-center">
+		<h1 class=" text-light col">
+			<span class="bg-dark">TITLE FIRST SLIDE</span>
+		</h1>
+
+		<p class="fs-4 col text-light">
+			<span class="bg-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem porro eos praesentium minus sequi dolores impedit.
+			</span>
+		</p>
+		<a class="btn btn-secondary" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">View more</a>
+	</div>	
+</div>
+
+
+	
+</body>
+</html>
+
+
+
+css
+
+
+
+.bg-image{
+	background-image: url(https://www.blind-magazine.com/wp-content/uploads/2021/12/photographing-the-city-at-night-en.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: calc(93vh + 2px);
+	width: 100vw;
+	
+}
+
+div.container{
+	max-width: 100vw;
+}
+
+div.my_flex{
+	align-items: center;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
