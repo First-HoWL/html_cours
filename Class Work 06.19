@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Index</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+
+	<div class="row flex-column flex-lg-row p-2">
+		<div class="col-12 d-flex flex-row col-lg-6 col-xl-3 border-box mb-2">
+			<div class="text-bg-dark p-2 border-box flex-lg-row d-flex">
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Star%2A.svg/2234px-Star%2A.svg.png" class="bg-dark w-25 w-lg-50 ">
+				<div class="">
+					<h2>Lorem ipsum</h2>
+				
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci rem fuga doloremque doloribus minus aperiam perspiciatis, inventore perferendis, suscipit labore et numquam ex ullam molestias vitae deserunt similique. Cum, laborum.</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci rem fuga doloremque doloribus minus aperiam perspiciatis, inventore perferendis, suscipit labore et numquam ex ullam molestias vitae deserunt similique. Cum, laborum.</p>
+				
+				</div>
+			</div>
+		</div>
+
+		<div class="col-12 d-flex flex-row col-lg-6 col-xl-3 border-box mb-2">
+			<div class="text-bg-dark p-2 border-box flex-lg-row d-flex">
+			<img src="https://static-00.iconduck.com/assets.00/cat-icon-449x512-h6yiv3wo.png" width="25%" >
+			<div class="">
+				<h2>Lorem ipsum</h2>
+			
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci rem fuga doloremque doloribus minus aperiam perspiciatis, inventore perferendis, suscipit labore et numquam ex ullam molestias vitae deserunt similique. Cum, laborum.</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci rem fuga doloremque doloribus minus aperiam perspiciatis, inventore perferendis, suscipit labore et numquam ex ullam molestias vitae deserunt similique. Cum, laborum.</p>
+			
+			</div>
+		</div>
+		</div>
+
+		<div class="col-12 d-flex flex-row col-lg-6 col-xl-3 border-box mb-2">
+			<div class="text-bg-dark p-2 border-box flex-lg-row d-flex">
+			<img src="https://cdn-icons-png.flaticon.com/512/2527/2527411.png" width="25%" >
+			<div class="">
+				<h2>Lorem ipsum</h2>
+			
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci rem fuga doloremque doloribus minus aperiam perspiciatis, inventore perferendis, suscipit labore et numquam ex ullam molestias vitae deserunt similique. Cum, laborum.</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci rem fuga doloremque doloribus minus aperiam perspiciatis, inventore perferendis, suscipit labore et numquam ex ullam molestias vitae deserunt similique. Cum, laborum.</p>
+			
+			</div>
+		</div>
+	</div>
+
+	<div class="col-12 d-flex flex-row col-lg-6 col-xl-3 border-box mb-2">
+		<div class="text-bg-dark p-2 border-box flex-lg-row d-flex">
+			<img src="https://cdn.pixabay.com/photo/2013/07/12/12/56/home-146585_640.png" width="25%" >
+			<div class="">
+				<h2>Lorem ipsum</h2>
+			
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci rem fuga doloremque doloribus minus aperiam perspiciatis, inventore perferendis, suscipit labore et numquam ex ullam molestias vitae deserunt similique. Cum, laborum.</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci rem fuga doloremque doloribus minus aperiam perspiciatis, inventore perferendis, suscipit labore et numquam ex ullam molestias vitae deserunt similique. Cum, laborum.</p>
+			
+			</div>
+		</div>
+	</div>
+
+	</div>
+	
+
+</body>
+</html>
+
+
+css
+
+
+
+.border-box{
+    box-sizing: border-box;
+}
+
+img{
+    min-width: 150px;
+    height: 150px !important;
+}
