@@ -1,0 +1,182 @@
+https://www.figma.com/design/3w8UPZwVnoBYUKZG6we64k/7046_reklamare_30(COPY)-~5000-7500?node-id=0-4&t=134oP1ciWjZKcI67-0
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Index</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+<div class="first_box">
+<nav>
+	<div class="icon"></div>
+	<div>
+		<span>Про нас</span>
+		<span>Як працюємо?</span>
+		<span>Партнери</span>
+		<span>Послуги⬇️</span>
+		<span>Портфоліо</span>
+		<span class="buttons">🌍UK⬇️</span>
+	</div>
+	<div class="telegram">
+		<div class="icon"></div>
+		<div>
+			<span class="text_numb_phone">+380 (68) 375 09 44</span>
+			<span class="text_opasity">Зателефонуйте нам</span>
+		</div>
+	</div>
+
+	<div class="but_last">зв'язатися з нами      →</div>
+</nav>
+
+
+<div class="to_center">
+	<div class="in_to_center">
+		<span>Ведення Сторінок</span>
+		<div>
+			<ul>
+				<li>SMM-просування</li>
+				<li>SMM стратегії</li>
+			</ul>
+		</div>
+
+	</div>
+
+
+</div>
+
+
+
+
+</div>
+</body>
+</html>
+
+
+css
+
+
+
+
+
+$primary-color: #8b3030;
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: #11111D80;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+
+    span{
+        display: inline-block;
+        color: white;
+        padding: 10px 7px;
+        text-decoration: none;
+
+    }
+
+    div{
+        padding-top: 10px;
+        padding-right: 10px;
+
+        span.buttons{
+            background-color: rgb(99, 99, 99);
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 7px;
+            cursor: pointer;
+        }
+    }
+
+    div.telegram{
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+
+        div.icon{
+            background-image: url(Frame\ 6.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 40px;
+            width: 40px;
+            display: inline-block;
+            margin: 0 !important;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            padding-top: 0 !important;
+            margin-left: 3px;
+            
+            span.text_opasity{
+                color: #C0C0C0;
+                font-size: 12px;
+                font-weight: 300;
+                display: block;
+                padding: 3px 0 7px 0 !important;
+            }
+
+            span.text_numb_phone{
+                font-weight: 800;
+                font-size: 18px;
+                color: #FFFFFF;
+                display: block;
+                padding: 0px !important;
+            }
+        }
+
+    }
+
+    div.but_last{
+        background-color: #FFB800;
+        padding: 20px 24px 20px 24px;
+        width: 203px;
+        height: 60px;
+        border-radius: 100px;
+        font-size: 14px;
+        font-weight: 700;
+        box-sizing: border-box;
+    }
+    
+    div.icon{
+        background-image: url(reclamare_logo_4_color\ 2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 48px;
+        width: 100px;
+        margin-top: 10px;
+        padding: 0 !important;
+    }
+
+}
+
+div.first_box{
+    background-image: url(fictional-planet-with-colourful-night-sky-stars-nebula\ 4.png);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+
+    div.to_center{
+        display: flex;
+        height: 100%;
+
+        div.in_to_center{
+            span{
+                color: white;
+            }
+        }
+    }
+
+
+
+}
+
