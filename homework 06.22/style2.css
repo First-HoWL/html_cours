@@ -1,0 +1,183 @@
+body{
+	margin: 0;
+    padding: 20px;
+    background-color: rgb(228, 227, 227);
+    font-family: "Roboto", sans-serif;
+}
+
+div.line{
+    margin-bottom: 30px;
+}
+
+div.line > * {
+    display: inline-block;
+}
+
+div.line input{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.329);
+}
+
+
+input.valid_text{
+    border: 1px solid green !important;
+    color: green;
+}
+
+input.valid_text::placeholder{
+    color: green;
+}
+
+input.valid_text:focus{
+    outline: none !important;
+}
+
+div.valid_text::after{
+    content: '✓';
+    color: green;
+    position: absolute;
+    margin-left: -24px;
+    margin-top: 16px;
+    transform: translateY(-50%);
+}
+
+input.invalid_text{
+    border: 1px solid brown !important;
+    color: brown;
+}
+
+input.invalid_text::placeholder{
+    color: brown;
+}
+
+input.invalid_text:focus{
+    outline: none !important;
+}
+
+div.invalid_text::after{
+    content: '✕';
+    color: brown;
+    position: absolute;
+    margin-left: -24px;
+    margin-top: 17px;
+    transform: translateY(-50%);
+}
+
+div.line_check{
+    display: flex;
+}
+
+div.line_check > div > span{
+    line-height: 34px;
+    vertical-align: top;
+    padding: 0 3px ;
+}
+
+.line_check > div > input {
+    appearance: none;
+    width: 42px;
+    height: 22px;
+    border-radius: 7px;
+    position: relative;
+    cursor: pointer;
+    transition: border-color 0.2s;
+    border: 1px solid rgb(248, 29, 29);
+}
+.line_check > div > input::before {
+    background-color: red;
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 20px;
+    height: 16px;
+    border-radius: 25%;
+    transition: background-color 0.2s, transform 0.2s;
+}
+.line_check > div > input.valid:checked {
+    border-color: limegreen;
+}
+.line_check > div > input.valid:checked::before {
+    background-color: limegreen;
+    transform: translateX(14px);
+}
+
+.line_check > div > input.invalid {
+    border: 1px solid limegreen;
+}
+.line_check > div > input.invalid::before {
+    background-color: limegreen;
+    }
+
+.line_check > div > input.invalid:checked {
+    border-color: red;
+}
+.line_check > div > input.invalid:checked::before {
+    background-color: red;
+    transform: translateX(14px);
+}
+
+div.line > span{
+    line-height: 28px;
+    vertical-align: top;
+}
+
+input[type="radio"]{
+    accent-color: green;
+    border: none;
+    height: 20px;
+    width: 30px;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+button.active{
+    background-color: #28ad28;
+}
+
+button.hover{
+    background-color: green;
+}
+
+button.danger{
+    background-color: #dd306a;
+}
+
+button.hover_red{
+    background-color: #6e1130;
+}
+
+button.disabled{
+    background-color: grey;
+    cursor: default;
+}
+
+button.but_pl{
+    background-color: #28ad28;
+    padding: 10px 13px !important;
+    border-radius: 40px;
+}
+
+button.but_mi{
+    background-color: #dd306a;
+    padding: 10px 15px !important;
+    border-radius: 40px;
+}
+
+textarea{
+    width: 400px;
+    height: 100px;
+    border-radius: 5px;
+    resize: none;
+}
+
+textarea:focus{
+    outline: none !important;
+}
