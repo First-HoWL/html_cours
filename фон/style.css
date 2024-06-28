@@ -1,0 +1,129 @@
+
+body{
+    margin: 0px;
+}
+
+.max_div{
+    margin-top: 8px; 
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 15px;
+    max-width: 1000px;
+    min-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 95%;
+    overflow-y: auto;
+    /* text-indent: 20px; абзац */
+}
+/* Фоны
+https://kartinki.pics/uploads/posts/2021-04/1617573903_25-p-polnostyu-chernii-fon-30.jpg 
+https://w.forfun.com/fetch/bd/bdd719921d6a38f97e578cfc40fb41a6.jpeg
+https://images.wallpaperscraft.ru/image/single/nebo_zvezdy_noch_130489_1920x1080.jpg
+*/
+
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+ul li{
+    background-color: yellow;
+    position: relative;
+    z-index: 0;
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 1.5s;
+}
+
+ul li.about{
+    transition: background-color 0.3s, transform 3000s;
+}
+
+ul li.home:hover{
+    background-color: coral;
+    transform:  scale(1.5) rotateX(360deg) perspective(200px);
+    z-index: 1;
+}
+ul li.team:hover{
+    background-color: coral;
+    transform:  scale(1.5) rotateY(360deg) perspective(200px);
+    z-index: 1;
+    filter: blur(1px) brightness(70%) opacity(85%);
+}
+
+ul li.about:hover{
+    background-color: coral;
+    transform:  scale(10000) perspective(200px);
+    z-index: 1;
+}
+
+div.block{
+    width: 101%;
+    height: 100%;
+    background-image: url(https://images.wallpaperscraft.ru/image/single/zvezdnoe_nebo_zvezdy_chernyj_174007_1920x1080.jpg);
+    position: absolute;
+    z-index: -1;
+    animation-name: anim1;
+    animation-duration: 32s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+div.block2{
+    width: 101%;
+    height: 100%;
+    background-image: url(https://images.wallpaperscraft.ru/image/single/zvezdnoe_nebo_zvezdy_chernyj_174007_1920x1080.jpg);
+    position: absolute;
+    z-index: -1;
+    animation-name: anim2;
+    animation-duration: 32s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+div.block3{
+    width: 101%;
+    height: 100%;
+    background-image: url(https://images.wallpaperscraft.ru/image/single/zvezdnoe_nebo_zvezdy_chernyj_174007_1920x1080.jpg);
+    position: absolute;
+    z-index: -1;
+    animation-name: anim1;
+    animation-duration: 32s;
+    animation-delay: 16s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    margin-left: 2000px
+}
+
+.block_block{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    margin-top: -8px;
+}
+@keyframes anim1{
+    from{
+        transform: translate(-1920px, 0px);
+        margin-left: 0;
+    }
+    to{
+        transform: translate(1920px, 0px);
+        margin-left: 0;
+    }
+}
+
+@keyframes anim2{
+    from{
+        transform: translate(0px, 0px);
+        margin-left: 0;
+    }
+    to{
+        transform: translate(3840px, 0px);
+        margin-left: 0;
+    }
+}
