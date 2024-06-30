@@ -1,31 +1,287 @@
-.border-box{
-    box-sizing: border-box;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-img.width-150px{
-    min-width: 150px;
-    height: 150px !important;
+nav {
+  background-color: rgba(17, 17, 29, 0.5019607843);
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+nav span {
+  display: inline-block;
+  color: white;
+  padding: 10px 7px;
+  text-decoration: none;
+}
+nav div {
+  padding-top: 10px;
+  padding-right: 10px;
+}
+nav div span.buttons {
+  background-color: rgb(99, 99, 99);
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+nav div.telegram {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+nav div.telegram div.icon {
+  background-image: url(Frame\ 6.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  margin: 0 !important;
+}
+nav div.telegram div {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0 !important;
+  margin-left: 3px;
+}
+nav div.telegram div span.text_opasity {
+  color: #C0C0C0;
+  font-size: 12px;
+  font-weight: 300;
+  display: block;
+  padding: 3px 0 7px 0 !important;
+}
+nav div.telegram div span.text_numb_phone {
+  font-weight: 800;
+  font-size: 18px;
+  color: #FFFFFF;
+  display: block;
+  padding: 0px !important;
+}
+nav div.but_last {
+  background-color: #FFB800;
+  padding: 0 24px 0 24px;
+  line-height: 60px;
+  width: 203px;
+  height: 60px;
+  border-radius: 100px;
+  font-size: 14px;
+  font-weight: 700;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+nav div.icon {
+  background-image: url(Group\ 39.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 48px;
+  width: 100px;
+  margin-top: 10px;
+  padding: 0 !important;
 }
 
-.bg-image{
-	background-image: url(https://www.blind-magazine.com/wp-content/uploads/2021/12/photographing-the-city-at-night-en.jpg);
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
-	height: calc(93vh + 2px);
-	width: 100vw;
-	
+div.first_box {
+  background-image: url(fictional-planet-with-colourful-night-sky-stars-nebula\ 4.png);
+  height: 100vh;
+  width: 99vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+}
+div.first_box div.to_center {
+  display: flex;
+  height: 66%;
+  width: 50%;
+  min-width: 900px;
+  justify-content: flex-end;
+  align-items: center;
+}
+div.first_box div.to_center div.in_to_center {
+  width: 715px;
+  text-align: justify;
+}
+div.first_box div.to_center div.in_to_center * {
+  display: inline-block;
+}
+div.first_box div.to_center div.in_to_center span.white {
+  color: white;
+  font-size: 72px;
+  line-height: 85px;
+  text-transform: uppercase;
+}
+div.first_box div.to_center div.in_to_center div.list ul {
+  color: white;
+  padding-right: 60px;
+}
+div.first_box div.to_center div.in_to_center div.list ul li {
+  display: block;
+  font-size: 24px;
+  font-weight: 400;
+}
+div.first_box div.to_center div.in_to_center span.orange {
+  color: orange;
+  font-size: 72px;
+  line-height: 85px;
+  text-transform: uppercase;
+}
+div.first_box div.to_center div.in_to_center div.but_last {
+  background-color: #FFB800;
+  padding: 0 24px 0 24px;
+  line-height: 60px;
+  min-width: 216px;
+  border-radius: 100px;
+  font-size: 18px;
+  font-weight: 700;
+  box-sizing: border-box;
+  vertical-align: top;
+  cursor: pointer;
+  margin-top: 11px;
+  margin-left: 30px;
+}
+div.first_box div.blur_line {
+  height: 283px;
+  width: 99vw;
+  background-color: rgba(255, 255, 0, 0.226);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+div.first_box div.blur_line div.for_height {
+  display: flex;
+}
+div.first_box div.blur_line div.for_height div {
+  margin: 0 0px 0 20px;
+  padding-right: 20px;
+  border-right: 1px solid rgba(128, 128, 128, 0.14);
+  width: 185px;
+  text-align: center;
+}
+div.first_box div.blur_line div.for_height div:last-child {
+  border: none;
+}
+div.first_box div.blur_line div.for_height span.orange_big {
+  font-size: 40px;
+  font-weight: 700;
+  color: #FFB800;
+  line-height: 48px;
+}
+div.first_box div.blur_line div.for_height p {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 300;
+  text-align: center;
+  color: #ffffff;
 }
 
-div.container{
-	max-width: 100vw;
+div.our_case {
+  background-color: rgb(2, 0, 19);
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+div.our_case div.to_center {
+  width: 70%;
+}
+div.our_case div.to_center div.line_in_case {
+  display: flex;
+  justify-content: space-between;
+}
+div.our_case div.to_center div.line {
+  display: flex;
+  justify-content: space-between;
+}
+div.our_case div.to_center div.line h2 {
+  margin-top: 0;
+}
+div.our_case div.to_center div.line img {
+  height: 30px;
+  width: 132px;
+}
+div.our_case div.to_center div.content_in_case {
+  width: 47%;
+}
+div.our_case div.to_center div.content_in_case div.block div.line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+div.our_case div.to_center div.content_in_case div.block div.line div.text {
+  display: inline-block;
+  width: 60%;
+}
+div.our_case div.to_center div.content_in_case div.block div.line div.text h4 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 25px;
+  margin: 5px 0 5px 0;
+}
+div.our_case div.to_center div.content_in_case div.block div.line div.text p {
+  font-weight: 300;
+  font-size: 17px;
+}
+div.our_case div.to_center div.content_in_case div.block div.line img {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
 }
 
-div.my_flex{
-	align-items: center;
+div.footer {
+  background-color: rgb(2, 0, 19);
+  min-height: 300px;
+  width: 99vw;
+  display: flex;
+  color: white;
+  justify-content: center;
 }
-
-a{
-	text-decoration: none;
-	color: white;
+div.footer div.text {
+  width: 400px;
+  padding: 15px 0;
+  padding: 10px 20px;
 }
+div.footer div.second {
+  display: flex;
+  flex-direction: column;
+}
+div.footer div.second span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+div.footer div.third span.orange {
+  color: #FFB800;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 19.5px;
+}
+div.footer div.third img {
+  margin-right: 7px;
+}
+div.footer div.third div {
+  margin-bottom: 20px;
+}
+div.footer div.third span {
+  display: block;
+  line-height: 20px;
+}
+div.footer div.third h2 {
+  margin-bottom: 30px;
+}
+div.footer div.first .p {
+  height: 44%;
+}
+div.footer div.icon {
+  background-image: url(Group\ 39.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 48px;
+  width: 100px;
+  margin-top: 10px;
+  padding: 0 !important;
+}/*# sourceMappingURL=style.css.map */
