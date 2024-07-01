@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #0597F2;
 }
 
 nav {
@@ -50,7 +51,7 @@ nav div.icon {
 div.first_box {
   background: linear-gradient(rgba(255, 255, 255, 1), rgba(5, 151, 242, 0.39));
   height: 100vh;
-  width: 99vw;
+  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -81,7 +82,6 @@ div.to_center .h1{
   font-weight: 700;
   font-size: 50px;
   width: 700px;
-  text-wrap: wrap;
   display: block;
 }
 
@@ -104,37 +104,120 @@ div.to_center span.button{
   background-color: #141414;
   color: white;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 
+div.second_block{
+  margin-top: -60px;
+  background-color: white;
+  border-radius: 60px;
+  min-height: 920px;
+}
 
-div.our_case {
-  background-color: rgb(2, 0, 19);
-  color: white;
+div.line:first-child{
+  padding: 60px 10% 80px 10%;
+}
+
+div.line{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 40px;
 }
-div.our_case div {
-  width: 70%;
+
+div.second_block > .line > .first{
+  width: 85%;
+  font-size: 40px;
+  font-weight: 400;
+  padding-right: 30px;
 }
-div.our_case div h2 {
-  margin-top: 0;
+
+div.second_block > .line > .second{
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  align-items: flex-end;
 }
-div.our_case div div {
-  width: 47%;
+
+div.second_block > .line > .second > div{
+  padding: 0 20%;
 }
-div.our_case div div p {
-  width: 150px;
+
+div.f_in_secc{
+  text-transform: uppercase;
+  width: 30%;
+  padding: 0 calc(10% - 30px);
+  font-size: 20px;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+
+div.s_in_secc{
+  display: flex;
+  flex-direction: column;
+}
+
+div.in-line{
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+div.block_in_line{
+  width: 33%;
+  box-sizing: border-box;
+  padding: 0 10px 0 10px;
+}
+
+div.third_box{
+  background-color: #0597F2;
+}
+
+div.to_cent{
+  padding: 0 10% 0 10%;
+}
+
+div.to_cent > .line{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 !important;
+}
+
+div.to_cent > .line > .in_the_line{
+  padding: 20px;
+  background-color: white;
+  width: 49%;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin-bottom: 2%;
+}
+
+div.to_cent > h2{
+  color: white;
+}
+
+.in_the_line > span.h3{
+  font-weight: 700;
+  font-size: 20px;
+  vertical-align: top;
+  padding-left: 20px;
+  width: 250px;
   display: inline-block;
 }
-div.our_case div div img {
-  display: inline-block;
+
+.in_the_line > a{
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: #0597F2;
 }
+
+
 
 div.footer {
   background-color: rgb(2, 0, 19);
   min-height: 300px;
-  width: 99vw;
+  width: 100%;
   display: flex;
   color: white;
   justify-content: center;
