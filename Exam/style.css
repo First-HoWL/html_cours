@@ -10,13 +10,17 @@ nav {
 }
 
 nav span {
-  padding: 10px 7px;
+  padding: 15px 7px;
+  margin: 0 1% 0 1%;
   text-decoration: none;
+  min-width: 70px;
 }
 
 nav div {
-  padding-top: 15px;
+  display: flex;
+  width: 100%;
   padding-right: 10px;
+  justify-content: flex-end;
 }
 
 nav div span.buttons {
@@ -25,7 +29,9 @@ nav div span.buttons {
   border: 1px solid black;
   font-weight: bold;
   cursor: pointer;
-  margin: 0 30px 0 30px;
+  margin: 0 30px 0 30px !important;
+  line-height: 30px;
+  min-width: none;
 }
 
 nav div.icon {
@@ -33,6 +39,7 @@ nav div.icon {
   background-size: cover;
   background-repeat: no-repeat;
   height: 52px;
+  min-width: 140px;
   width: 140px;
   padding: 0 !important;
 }
@@ -58,81 +65,48 @@ div.to_center {
   text-align: center;
 }
 
-div.to_center > h2{
-  color: #0597f2;
+div.scale{
+  transform: scale(1.3);
+  margin-bottom: 40px;
+  text-align: center;
 }
 
-div.first_box div.to_center div.in_to_center span.white {
-  color: white;
-  font-size: 72px;
-  line-height: 85px;
-  text-transform: uppercase;
+div.to_center h2{
+  color: #0597f2;
+  font-weight: 600;
+  font-size: 20px;
 }
-div.first_box div.to_center div.in_to_center div.list ul {
-  color: white;
-  padding-right: 60px;
-}
-div.first_box div.to_center div.in_to_center div.list ul li {
+
+div.to_center .h1{
+  font-weight: 700;
+  font-size: 50px;
+  width: 700px;
+  text-wrap: wrap;
   display: block;
-  font-size: 24px;
-  font-weight: 400;
 }
-div.first_box div.to_center div.in_to_center span.orange {
-  color: orange;
-  font-size: 72px;
-  line-height: 85px;
-  text-transform: uppercase;
-}
-div.first_box div.to_center div.in_to_center div.but_last {
-  background-color: #FFB800;
-  padding: 0 24px 0 24px;
-  line-height: 60px;
-  min-width: 216px;
-  border-radius: 100px;
-  font-size: 18px;
-  font-weight: 700;
-  box-sizing: border-box;
-  vertical-align: top;
-  cursor: pointer;
-  margin-top: 11px;
-  margin-left: 30px;
-}
-div.first_box div.blur_line {
-  height: 283px;
-  width: 99vw;
-  background-color: rgba(255, 255, 0, 0.226);
-  display: flex;
+
+div.to_p{
   justify-content: center;
-  align-items: center;
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
-}
-div.first_box div.blur_line div.for_height {
   display: flex;
 }
-div.first_box div.blur_line div.for_height div {
-  margin: 0 0px 0 20px;
-  padding-right: 20px;
-  border-right: 1px solid rgba(128, 128, 128, 0.14);
-  width: 185px;
+
+div.to_center p{
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 40px;
+  display: block;
+  width: 600px;
   text-align: center;
 }
-div.first_box div.blur_line div.for_height div:last-child {
-  border: none;
+
+div.to_center span.button{
+  padding: 22px 30px;
+  background-color: #141414;
+  color: white;
+  border-radius: 5px;
 }
-div.first_box div.blur_line div.for_height span.orange_big {
-  font-size: 40px;
-  font-weight: 700;
-  color: #FFB800;
-  line-height: 48px;
-}
-div.first_box div.blur_line div.for_height p {
-  font-size: 16px;
-  line-height: 18px;
-  font-weight: 300;
-  text-align: center;
-  color: #ffffff;
-}
+
+
 
 div.our_case {
   background-color: rgb(2, 0, 19);
@@ -211,4 +185,4 @@ div.footer div.icon {
   width: 100px;
   margin-top: 10px;
   padding: 0 !important;
-}/*# sourceMappingURL=style.css.map */
+}
