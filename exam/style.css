@@ -1,0 +1,333 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0597F2;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10%;
+}
+
+nav span {
+  padding: 15px 7px;
+  margin: 0 1% 0 1%;
+  text-decoration: none;
+  min-width: 70px;
+}
+
+nav div {
+  display: flex;
+  width: 100%;
+  padding-right: 10px;
+  justify-content: flex-end;
+}
+
+nav div span.buttons {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 30px 0 30px !important;
+  line-height: 30px;
+  min-width: none;
+}
+
+div.icon {
+  background-image: url(ToDoIt_Logo_Horizontal_Color_Black.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 52px;
+  min-width: 140px;
+  width: 140px;
+  padding: 0 !important;
+}
+
+
+
+
+div.first_box {
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(5, 151, 242, 0.514));
+  height: 107vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+}
+div.to_center {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  min-width: 900px;justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+div.scale{
+  transform: scale(1.3);
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+div.to_center h2{
+  color: #0597f2;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+div.to_center .h1{
+  font-weight: 700;
+  font-size: 50px;
+  width: 700px;
+  display: block;
+}
+
+div.to_p{
+  justify-content: center;
+  display: flex;
+}
+
+div.to_center p{
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 40px;
+  display: block;
+  width: 600px;
+  text-align: center;
+}
+
+div.to_center span.button{
+  padding: 22px 30px;
+  background-color: #141414;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+div.second_block{
+  margin-top: -60px;
+  background-color: white;
+  border-radius: 60px;
+  min-height: 920px;
+}
+
+div.and_first{
+  padding: 60px 10% 80px 10% !important;
+}
+
+div.line{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.line > .first{
+  width: 85%;
+  font-size: 40px;
+  font-weight: 400;
+  padding-right: 30px;
+}
+
+.line > .second{
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  align-items: flex-end;
+}
+
+.line > .second > div{
+  padding: 0 20%;
+}
+
+div.f_in_secc{
+  text-transform: uppercase;
+  width: 30%;
+  padding: 0 calc(10% - 30px);
+  font-size: 20px;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+
+div.s_in_secc{
+  display: flex;
+  flex-direction: column;
+}
+
+div.in-line{
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+div.block_in_line{
+  width: 440px;
+  box-sizing: border-box;
+  padding: 0 10px 0 10px;
+}
+
+div.third_box{
+  background-color: #0597F2;
+}
+
+div.to_cent{
+  padding: 0 10% 0 10%;
+}
+
+div.to_cent > .line{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 !important;
+}
+
+div.to_cent > .line > .in_the_line{
+  padding: 20px;
+  background-color: white;
+  width: 49%;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin-bottom: 2%;
+}
+
+div.to_cent > h2{
+  color: white;
+}
+
+.in_the_line > span.h3{
+  font-weight: 700;
+  font-size: 20px;
+  vertical-align: top;
+  padding-left: 20px;
+  width: 250px;
+  display: inline-block;
+}
+
+.in_the_line > a{
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  color: #0597F2;
+}
+
+div.fot_in_cent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  padding: 20px 0 50px 0;
+}
+
+div.fot_in_cent h2{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+div.fot_in_cent span{
+  max-width: 230px;
+  display: inline-block;
+}
+
+div.fot_in_cent a.button{
+  color: #141414;
+  padding: 15px 20px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 5px;
+  margin-left: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+div.fourth{
+  background-color: white;
+  border-radius: 60px;
+  width: 100%;
+  padding: 30px 0 0 0;
+}
+
+div.fifth{
+  height: 600px;
+  color: white;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div.fifth h2{
+  font-size: 40px;
+  font-weight: 700;
+  display: block;
+  width: 600px;
+  text-align: center;
+}
+
+div.fifth a.button{
+  color: #141414;
+  padding: 15px 20px;
+  background-color: white;
+  display: inline-block;
+  border-radius: 5px;
+  margin-left: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+div.numb_phone span{
+  line-height: 24px;
+  font-size: 18px;
+  vertical-align: top;
+}
+
+div.footer {
+  background-color: white;
+  border-radius: 60px 60px 0 0;
+  min-height: 300px;
+  padding: 0 10%;
+  display: flex;
+}
+div.footer div.text {
+  width: 400px;
+  padding: 15px 0;
+  padding: 10px 20px;
+}
+div.footer div.second {
+  display: flex;
+  flex-direction: column;
+}
+div.footer div.second span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  margin-bottom: 20px;
+}
+div.footer div.third span.orange {
+  color: #FFB800;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 19.5px;
+}
+div.footer div.third img {
+  margin-right: 7px;
+}
+div.footer div.third div {
+  margin-bottom: 20px;
+}
+div.footer div.third span {
+  display: block;
+  line-height: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 0 30px;
+  min-width: 130px;
+  box-sizing: border-box;
+}
+div.footer div.third h2 {
+  margin-bottom: 30px;
+}
